@@ -8,14 +8,15 @@ reg clk = 0;
 always #0.5 clk = ~clk; //cada 0.5 unidades temporales se niega el clk
 
 reg [3:0] test_D;
-reg test_rst;
+reg test_rst, test_en;
 wire [3:0] test_Q;
 
 reg_paralelo_paralelo_4b UUT (//-- Instantiate the unit to test
 	.clk(clk),
 	.D(test_D),
 	.Q(test_Q),
-	.rst(test_rst)
+	.rst(test_rst),
+	.en(test_en)
 );
 
 
@@ -27,7 +28,8 @@ initial begin
 	test_rst = 1'b1;
 	#1
 	test_rst = 1'b0;
-
+	#2
+	test_en = 1'b1;
 	#3
 	test_D = 4'b0011;
 	#3;
