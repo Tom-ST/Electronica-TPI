@@ -28,11 +28,53 @@ initial begin
 	test_rst=1'b1;
 	#1
 	test_rst=1'b0;
+	#1
+	test_up = 1;
+	test_down = 0;
+	#1
+	test_up = 0;
+	#1
+	test_up = 1;
+	#1
+	test_up = 0;
+	#1
+	test_up = 1;
+	#1
+	test_up = 0;
+	#1
+	test_up = 1;
+	#1
+	test_up = 0;
 	#5
 	test_ok = 1'b1;
 	#1
 	test_ok = 1'b0;
 	#1
+	//cargo denominador
+	test_up = 1;
+	#1
+	test_up = 0;
+	#1
+	test_up = 1;
+	#1
+	test_up = 0;
+	#1
+	test_up = 1;
+	#1
+	test_up = 0;
+	#1
+	test_up = 1;
+	#1
+	test_up = 0;
+	#1
+	test_up = 1;
+	#1
+	test_up = 0;
+	#1
+	test_down = 1;
+	#1
+	test_down = 0;
+	#1
 	test_ok = 1'b1;
 	#1
 	test_ok = 1'b0;
@@ -41,14 +83,14 @@ initial begin
 	#1
 	test_ok = 1'b0;
 	#1
+	test_rst = 1;
+	#1
+	test_rst = 0;
+	#1
 	test_ok = 1'b1;
 	#1
 	test_ok = 1'b0;
-	#1
-	test_ok = 1'b1;
-	#1
-	test_ok = 1'b0;
-	#1
+	#3
 	
 	$finish;
 end
