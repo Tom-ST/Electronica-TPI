@@ -1,0 +1,208 @@
+$date
+	Wed Jun 07 19:08:23 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module divisor_4b_tb $end
+$var wire 4 ! test_leds [3:0] $end
+$var reg 1 " clk $end
+$var reg 1 # test_down $end
+$var reg 1 $ test_ok $end
+$var reg 1 % test_rst $end
+$var reg 1 & test_up $end
+$scope module UUT $end
+$var wire 1 " clk $end
+$var wire 4 ' den [3:0] $end
+$var wire 1 # down $end
+$var wire 4 ( num [3:0] $end
+$var wire 1 $ ok $end
+$var wire 4 ) rest [3:0] $end
+$var wire 4 * result [3:0] $end
+$var wire 1 % rst $end
+$var wire 1 & up $end
+$var wire 2 + sel [1:0] $end
+$var wire 4 , leds [3:0] $end
+$scope module contador_2b_0 $end
+$var wire 1 " clk $end
+$var wire 1 % rst $end
+$var wire 1 $ up $end
+$var reg 2 - curr_numero [1:0] $end
+$var reg 1 . enable_up $end
+$var reg 2 / next_numero [1:0] $end
+$upscope $end
+$scope module mux_4b_4_1_a_leds $end
+$var wire 4 0 d0 [3:0] $end
+$var wire 4 1 d1 [3:0] $end
+$var wire 4 2 d2 [3:0] $end
+$var wire 4 3 d3 [3:0] $end
+$var wire 2 4 sel [1:0] $end
+$var reg 4 5 f [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx 5
+bx 4
+b1000 3
+b100 2
+b10 1
+b1 0
+bx /
+1.
+bx -
+bx ,
+bx +
+b100 *
+b1000 )
+b1 (
+b10 '
+x&
+1%
+x$
+x#
+0"
+bx !
+$end
+#50000
+b0 /
+b1 !
+b1 ,
+b1 5
+b0 +
+b0 -
+b0 4
+1"
+#100000
+0"
+0%
+#150000
+1"
+#200000
+0"
+#250000
+1"
+#300000
+0"
+#350000
+1"
+#400000
+0"
+#450000
+1"
+#500000
+0"
+#550000
+1"
+#600000
+b1 /
+0"
+1$
+#650000
+b10 /
+b10 !
+b10 ,
+b10 5
+0.
+b1 +
+b1 -
+b1 4
+1"
+#700000
+b1 /
+0"
+0$
+#750000
+1.
+1"
+#800000
+b10 /
+0"
+1$
+#850000
+b11 /
+b100 !
+b100 ,
+b100 5
+0.
+b10 +
+b10 -
+b10 4
+1"
+#900000
+b10 /
+0"
+0$
+#950000
+1.
+1"
+#1000000
+b11 /
+0"
+1$
+#1050000
+b0 /
+b1000 !
+b1000 ,
+b1000 5
+0.
+b11 +
+b11 -
+b11 4
+1"
+#1100000
+b11 /
+0"
+0$
+#1150000
+1.
+1"
+#1200000
+b0 /
+0"
+1$
+#1250000
+b1 /
+b1 !
+b1 ,
+b1 5
+0.
+b0 +
+b0 -
+b0 4
+1"
+#1300000
+b0 /
+0"
+0$
+#1350000
+1.
+1"
+#1400000
+b1 /
+0"
+1$
+#1450000
+b10 /
+b10 !
+b10 ,
+b10 5
+0.
+b1 +
+b1 -
+b1 4
+1"
+#1500000
+b1 /
+0"
+0$
+#1550000
+1.
+1"
+#1600000
+0"
