@@ -49,9 +49,8 @@ always @*
 always @*
 		begin
 			nextstate = state;
-				
 			case(state)
-					S0: if(clk && resto>0)
+					S0: if(clk && resto>0 && resto>B)
 							begin
 								resto= resto - B;
 								contador=contador+1;
