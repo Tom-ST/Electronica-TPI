@@ -3,8 +3,9 @@ module divisor(
 	input wire reset,
 	input wire [3:0] A,
 	input wire [3:0] B,
-	output wire [3:0] S,
-	output wire [3:0] R
+	input wire [1:0]Enable,
+	output reg [3:0] S,
+	output reg [3:0] R
 );
 
 localparam [1:0] S0= 2'b00, S1= 2'b01;
@@ -13,13 +14,14 @@ reg [1:0] state, nextstate;
 
 reg [3:0] resto;
 reg [3:0] contador=0;
-reg bandera=0;
+reg bandera = 0;
 
 always @(posedge clk, posedge reset)
 	begin	
-		if(reset)
+		if(reset || Enable== 2'b10)
 			begin 
 				state <=S0;
+
 			end
 		else	
 			begin 
@@ -29,7 +31,7 @@ always @(posedge clk, posedge reset)
 
 always @*
 		begin
-			if (bandera==0)
+			if (Enable== 2'b10 && bandera==0)
 				begin
 					resto=A;
 					bandera=1;
@@ -42,16 +44,17 @@ always @*
 							contador=contador+1;
 							nextstate=S0;
 							end
-						else
-							nextstate=S1;			
+						else if (clk && resto<B)
+							begin
+							 S=contador;	
+							 R=resto;
+							 nextstate=S1;
+							end
 					default:
 							nextstate=state;
 				endcase
 		end
 
-
-assign S=contador;	
-assign R=resto;
 
 endmodule	
 	
