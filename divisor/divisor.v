@@ -36,8 +36,12 @@ always @*
 				end
 					nextstate = state;
 				case(state)
-					S0: if(resto>B)
+					S0: if(clk && resto>=B)
+							begin
+							resto= resto - B;
+							contador=contador+1;
 							nextstate=S0;
+							end
 						else
 							nextstate=S1;			
 					default:
@@ -45,18 +49,6 @@ always @*
 				endcase
 		end
 
-
-always @*
-		begin
-			nextstate = state;
-			case(state)
-					S0: if(clk && resto>0 && resto>B)
-							begin
-								resto= resto - B;
-								contador=contador+1;
-							end
-			endcase
-		end
 
 assign S=contador;	
 assign R=resto;
