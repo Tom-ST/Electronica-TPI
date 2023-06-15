@@ -1,5 +1,5 @@
 module contador_4b(
-	input wire clk, up, down,
+	input wire clk, up, down, enable,
 	input rst,
 	output reg [3:0] curr_numero
 );
@@ -30,7 +30,7 @@ always @(posedge clk)
 		if (rst) curr_numero <= b00;
 		else
 		if(up ^ down) begin
-			if(enable_btn)
+			if(enable_btn & enable)
 				begin
 					curr_numero <= next_numero;
 					enable_btn <= 0;
