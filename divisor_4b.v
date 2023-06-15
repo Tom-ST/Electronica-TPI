@@ -2,6 +2,7 @@
 `include "contador_2b/contador_2b.v"
 `include "demux_4b_1_4/demux_4b_1_4.v"
 `include "contador_4b/contador_4b.v"
+`include "inversor/inversor.v"
 
 module divisor_4b(
 	input wire up, down, ok, clk, rst,
@@ -14,33 +15,51 @@ wire[3:0] result, rest;
 wire [1:0] sel;
 wire [3:0] numero_4b;
 
+wire up_inv, down_inv, ok_inv, rst_inv;
+
+assign up_inv = ~up;
+assign down_inv = ~down;
+assign rst_inv = ~rst;
+assign ok_inv = ~ok;
+
 //para probar
 assign result = 4'b0111;
 assign rest = 4'b1000;
 //fin para probar
 
-wire rst_contador_4b = ok | rst;
+wire rst_contador_4b = ok_inv | rst_inv;
+wire enable_cont_num = (sel == 2'b00);
+wire enable_cont_den = (sel == 2'b01);
 
 contador_4b contador_4b_0(
+	.enable(enable_cont_num),
 	.clk(clk),
-	.up(up),
-	.down(down),
-	.rst(rst_contador_4b),
-	.curr_numero(numero_4b)
+	.up(up_inv),
+	.down(down_inv),
+	.rst(rst_inv),
+	.curr_numero(num)
+);
+contador_4b contador_4b_1(
+	.enable(enable_cont_den),
+	.clk(clk),
+	.up(up_inv),
+	.down(down_inv),
+	.rst(rst_inv),
+	.curr_numero(den)
 );
 
-demux_4b_1_4 demux_4b_1_4_0(
-	.sel(sel),
-	.d(numero_4b),
-	.y0(num),
-	.y1(den)
-);
+// demux_4b_1_4 demux_4b_1_4_0(
+	// .sel(sel),
+	// .d(numero_4b),
+	// .y0(num),
+	// .y1(den)
+// );
 
 
 contador_2b contador_2b_0(
 	.clk(clk),
-	.up(ok),
-	.rst(rst),
+	.up(ok_inv),
+	.rst(rst_inv),
 	.curr_numero(sel)
 );
 
