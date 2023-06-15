@@ -2,7 +2,6 @@
 `include "contador_2b/contador_2b.v"
 `include "demux_4b_1_4/demux_4b_1_4.v"
 `include "contador_4b/contador_4b.v"
-`include "inversor/inversor.v"
 
 module divisor_4b(
 	input wire up, down, ok, clk, rst,
@@ -31,7 +30,7 @@ wire rst_contador_4b = ok_inv | rst_inv;
 wire enable_cont_num = (sel == 2'b00);
 wire enable_cont_den = (sel == 2'b01);
 
-contador_4b contador_4b_0(
+contador_4b contador_4b_num(
 	.enable(enable_cont_num),
 	.clk(clk),
 	.up(up_inv),
@@ -39,7 +38,7 @@ contador_4b contador_4b_0(
 	.rst(rst_inv),
 	.curr_numero(num)
 );
-contador_4b contador_4b_1(
+contador_4b contador_4b_den(
 	.enable(enable_cont_den),
 	.clk(clk),
 	.up(up_inv),
