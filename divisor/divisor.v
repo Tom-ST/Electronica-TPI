@@ -1,60 +1,62 @@
 module divisor(
-	input wire clk,
-	input wire reset,
+	input wire clk, rst,
 	input wire [3:0] A,
 	input wire [3:0] B,
-	input wire [1:0]Enable,
 	output reg [3:0] S,
 	output reg [3:0] R
 );
-
-localparam [1:0] S0= 2'b00, S1= 2'b01;
 	
-reg [1:0] state, nextstate;
+	
+localparam [1:0] 
+	espera = 2'b00,
+	error = 2'b01,
+	resta = 2'b10,
+	fin = 2'b11;
+	
+reg [1:0] state, next_state;
+reg [3:0] A_reg, next_A, iteracion;
 
-reg [3:0] resto;
-reg [3:0] contador=0;
-reg bandera = 0;
 
-always @(posedge clk, posedge reset)
+always @(posedge clk)
 	begin	
-		if(reset || Enable== 2'b10)
+		if(rst)
 			begin 
-				state <=S0;
-
+				state <= espera;
 			end
-		else	
-			begin 
-				state <= nextstate; 
+		else
+			begin
+				A_reg <= next_A;
+				state <= next_state;
 			end
 	end
 
+
 always @*
-		begin
-			if (Enable== 2'b10 && bandera==0)
+	case(state)
+		espera :
+			begin
+				if(A < B | B == 0) 
+					next_state <= error;
+				else 
+					next_state <= resta;
+					next_A <= A;
+					iteracion <= 0;
+			end
+		 resta :		
+			if(A_reg < B)
+				next_state <= fin;
+			else
 				begin
-					resto=A;
-					bandera=1;
+					next_state <= resta;
+					next_A <= A_reg-B;
+					iteracion++;
 				end
-					nextstate = state;
-				case(state)
-					S0: if(clk && resto>=B)
-							begin
-							resto= resto - B;
-							contador=contador+1;
-							nextstate=S0;
-							end
-						else if (clk && resto<B)
-							begin
-							 S=contador;	
-							 R=resto;
-							 nextstate=S1;
-							end
-					default:
-							nextstate=state;
-				endcase
-		end
-
-
-endmodule	
-	
+		fin :
+			begin
+				next_state <= fin;
+				next_A <= R;
+				S <= iteracion;
+				R <= A_reg;
+			end
+	endcase
+endmodule

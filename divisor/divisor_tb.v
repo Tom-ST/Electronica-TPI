@@ -13,20 +13,20 @@ parameter DURATION = 10;
 reg clk =0;
 always #0.5 clk = ~clk;
 
-reg [3:0] test_A_in;
-reg [3:0] test_B_in;
-wire [3:0] test_S_out;
-wire [3:0] test_R_out;
+reg [3:0] test_A;
+reg [3:0] test_B;
+wire [3:0] test_S;
+wire [3:0] test_R;
 reg test_rst;
 
 //-- Instantiate the unit to test
 divisor UUT(
 			.clk(clk),
-			.reset(test_rst),
-			.A(test_A_in),
-			.B(test_B_in),
-			.S(test_S_out),
-			.R(test_R_out)
+			.rst(test_rst),
+			.A(test_A),
+			.B(test_B),
+			.S(test_S),
+			.R(test_R)
 			);
 
 initial begin
@@ -34,37 +34,13 @@ initial begin
 //-- File were to store the simulation result
 $dumpfile(`DUMPSTR(`VCD_OUTPUT));
 $dumpvars(0, divisor_tb);
-
-		test_A_in = 15;
-		test_B_in = 3;
-
-
-	
-	
-	test_rst=1'b1;
-	#5
-	test_rst=1'b0;
-	#5
-	test_rst=1'b1;
-	#5
-	test_rst=1'b0;
-	#5
-	test_rst=1'b1;
-	#5
-	test_rst=1'b0;
-	#5
-	test_rst=1'b1;
-	#5
-	test_rst=1'b0;
-	#5
-		test_rst=1'b1;
-	#5
-	test_rst=1'b0;
-	#5
-	test_rst=1'b1;
-	#5
-	test_rst=1'b0;
-	#5
+	test_A = 14;
+	test_B = 3;
+	#1
+	test_rst = 1'b1;
+	#1
+	test_rst = 1'b0;
+	#10
 	
 	$finish;
 	
