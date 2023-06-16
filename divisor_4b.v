@@ -74,7 +74,7 @@ mux_4b_4_1 mux_4b_4_1_a_leds(
 
 wire rst_div = (sel[1] == 0);
 divisor divisor0(
-	//.rst(rst_div),
+	.rst(rst_div),
 	.clk(clk),
 	.A(num),
 	.B(den),
