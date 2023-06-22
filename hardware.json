@@ -10052,106 +10052,6 @@
             "O": [ 33 ]
           }
         },
-        "contador_4b_den.next_numero_SB_LUT4_O_2_I2_SB_LUT4_O_I0_SB_LUT4_O": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "1111000000000000"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:17.34-18.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ "0" ],
-            "I1": [ "0" ],
-            "I2": [ 39 ],
-            "I3": [ 40 ],
-            "O": [ 35 ]
-          }
-        },
-        "contador_4b_den.next_numero_SB_LUT4_O_2_I2_SB_LUT4_O_I0_SB_LUT4_O_I2_SB_LUT4_O": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "1111010100111111"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ 41 ],
-            "I1": [ 42 ],
-            "I2": [ 2 ],
-            "I3": [ 3 ],
-            "O": [ 43 ]
-          }
-        },
-        "contador_4b_den.next_numero_SB_LUT4_O_2_I2_SB_LUT4_O_I0_SB_LUT4_O_I2_SB_LUT4_O_1": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "1111010100111111"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ 44 ],
-            "I1": [ 42 ],
-            "I2": [ 3 ],
-            "I3": [ 2 ],
-            "O": [ 39 ]
-          }
-        },
-        "contador_4b_den.next_numero_SB_LUT4_O_2_I2_SB_LUT4_O_I0_SB_LUT4_O_I2_SB_LUT4_O_2": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "0011000000000000"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:22.34-23.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ "0" ],
-            "I1": [ 45 ],
-            "I2": [ 21 ],
-            "I3": [ 18 ],
-            "O": [ 46 ]
-          }
-        },
         "contador_4b_den.next_numero_SB_LUT4_O_2_I3_SB_LUT4_O": {
           "hide_name": 0,
           "type": "SB_LUT4",
@@ -10170,11 +10070,11 @@
             "O": "output"
           },
           "connections": {
-            "I0": [ 47 ],
-            "I1": [ 48 ],
+            "I0": [ 39 ],
+            "I1": [ 40 ],
             "I2": [ 2 ],
             "I3": [ 3 ],
-            "O": [ 49 ]
+            "O": [ 41 ]
           }
         },
         "contador_4b_den.next_numero_SB_LUT4_O_2_I3_SB_LUT4_O_1": {
@@ -10195,8 +10095,8 @@
             "O": "output"
           },
           "connections": {
-            "I0": [ 48 ],
-            "I1": [ 50 ],
+            "I0": [ 40 ],
+            "I1": [ 42 ],
             "I2": [ 2 ],
             "I3": [ 3 ],
             "O": [ 34 ]
@@ -10221,10 +10121,10 @@
           },
           "connections": {
             "I0": [ "0" ],
-            "I1": [ 45 ],
+            "I1": [ 43 ],
             "I2": [ 18 ],
             "I3": [ 21 ],
-            "O": [ 51 ]
+            "O": [ 44 ]
           }
         },
         "contador_4b_den.next_numero_SB_LUT4_O_2_I3_SB_LUT4_O_I0_SB_LUT4_O": {
@@ -10249,7 +10149,7 @@
             "I1": [ 18 ],
             "I2": [ 23 ],
             "I3": [ 25 ],
-            "O": [ 47 ]
+            "O": [ 39 ]
           }
         },
         "contador_4b_den.next_numero_SB_LUT4_O_2_I3_SB_LUT4_O_I0_SB_LUT4_O_1": {
@@ -10274,7 +10174,7 @@
             "I1": [ 18 ],
             "I2": [ 25 ],
             "I3": [ 21 ],
-            "O": [ 48 ]
+            "O": [ 40 ]
           }
         },
         "contador_4b_den.next_numero_SB_LUT4_O_3": {
@@ -10296,9 +10196,9 @@
           },
           "connections": {
             "I0": [ 28 ],
-            "I1": [ 40 ],
+            "I1": [ 45 ],
             "I2": [ 37 ],
-            "I3": [ 45 ],
+            "I3": [ 43 ],
             "O": [ 24 ]
           }
         },
@@ -10321,7 +10221,7 @@
           },
           "connections": {
             "I0": [ 29 ],
-            "I1": [ 52 ],
+            "I1": [ 46 ],
             "I2": [ 26 ],
             "I3": [ 27 ],
             "O": [ 28 ]
@@ -10345,8 +10245,8 @@
             "O": "output"
           },
           "connections": {
-            "I0": [ 53 ],
-            "I1": [ 41 ],
+            "I0": [ 47 ],
+            "I1": [ 48 ],
             "I2": [ 2 ],
             "I3": [ 3 ],
             "O": [ 36 ]
@@ -10370,11 +10270,36 @@
             "O": "output"
           },
           "connections": {
-            "I0": [ 50 ],
-            "I1": [ 53 ],
+            "I0": [ 42 ],
+            "I1": [ 47 ],
             "I2": [ 2 ],
             "I3": [ 3 ],
-            "O": [ 54 ]
+            "O": [ 49 ]
+          }
+        },
+        "contador_4b_den.next_numero_SB_LUT4_O_3_I1_SB_LUT4_O_1_I0_SB_LUT4_O": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "0100000000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 18 ],
+            "I1": [ 21 ],
+            "I2": [ 23 ],
+            "I3": [ 25 ],
+            "O": [ 42 ]
           }
         },
         "contador_4b_den.next_numero_SB_LUT4_O_3_I1_SB_LUT4_O_2": {
@@ -10399,35 +10324,10 @@
             "I1": [ 32 ],
             "I2": [ 21 ],
             "I3": [ 18 ],
-            "O": [ 40 ]
+            "O": [ 45 ]
           }
         },
         "contador_4b_den.next_numero_SB_LUT4_O_3_I1_SB_LUT4_O_I0_SB_LUT4_O": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "0100000000000000"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ 18 ],
-            "I1": [ 21 ],
-            "I2": [ 23 ],
-            "I3": [ 25 ],
-            "O": [ 50 ]
-          }
-        },
-        "contador_4b_den.next_numero_SB_LUT4_O_3_I1_SB_LUT4_O_I0_SB_LUT4_O_1": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
@@ -10449,7 +10349,57 @@
             "I1": [ 23 ],
             "I2": [ 25 ],
             "I3": [ 18 ],
-            "O": [ 53 ]
+            "O": [ 47 ]
+          }
+        },
+        "contador_4b_den.next_numero_SB_LUT4_O_3_I1_SB_LUT4_O_I1_SB_LUT4_I0": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "1111010100111111"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 48 ],
+            "I1": [ 50 ],
+            "I2": [ 2 ],
+            "I3": [ 3 ],
+            "O": [ 51 ]
+          }
+        },
+        "contador_4b_den.next_numero_SB_LUT4_O_3_I1_SB_LUT4_O_I1_SB_LUT4_I0_O_SB_LUT4_O": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "0011000000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:22.34-23.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ "0" ],
+            "I1": [ 43 ],
+            "I2": [ 21 ],
+            "I3": [ 18 ],
+            "O": [ 52 ]
           }
         },
         "contador_4b_den.next_numero_SB_LUT4_O_3_I1_SB_LUT4_O_I1_SB_LUT4_O": {
@@ -10474,14 +10424,14 @@
             "I1": [ 25 ],
             "I2": [ 23 ],
             "I3": [ 18 ],
-            "O": [ 41 ]
+            "O": [ 48 ]
           }
         },
-        "contador_4b_den.next_numero_SB_LUT4_O_3_I3_SB_LUT4_I2": {
+        "contador_4b_den.next_numero_SB_LUT4_O_3_I2_SB_LUT4_O": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
-            "LUT_INIT": "0000000000001111"
+            "LUT_INIT": "1111000000000000"
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
@@ -10497,12 +10447,12 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ "0" ],
-            "I2": [ 45 ],
-            "I3": [ 18 ],
-            "O": [ 55 ]
+            "I2": [ 53 ],
+            "I3": [ 45 ],
+            "O": [ 35 ]
           }
         },
-        "contador_4b_den.next_numero_SB_LUT4_O_3_I3_SB_LUT4_I2_O_SB_LUT4_O": {
+        "contador_4b_den.next_numero_SB_LUT4_O_3_I2_SB_LUT4_O_1": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
@@ -10520,39 +10470,64 @@
             "O": "output"
           },
           "connections": {
-            "I0": [ 56 ],
-            "I1": [ 44 ],
-            "I2": [ 3 ],
-            "I3": [ 2 ],
-            "O": [ 57 ]
-          }
-        },
-        "contador_4b_den.next_numero_SB_LUT4_O_3_I3_SB_LUT4_I2_O_SB_LUT4_O_1": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "1111010100111111"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ 56 ],
-            "I1": [ 47 ],
+            "I0": [ 54 ],
+            "I1": [ 39 ],
             "I2": [ 2 ],
             "I3": [ 3 ],
             "O": [ 38 ]
           }
         },
-        "contador_4b_den.next_numero_SB_LUT4_O_3_I3_SB_LUT4_I2_O_SB_LUT4_O_2": {
+        "contador_4b_den.next_numero_SB_LUT4_O_3_I2_SB_LUT4_O_1_I0_SB_LUT4_O": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "0000000100000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 21 ],
+            "I1": [ 23 ],
+            "I2": [ 18 ],
+            "I3": [ 25 ],
+            "O": [ 54 ]
+          }
+        },
+        "contador_4b_den.next_numero_SB_LUT4_O_3_I2_SB_LUT4_O_1_I0_SB_LUT4_O_1": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "1000000000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 25 ],
+            "I1": [ 21 ],
+            "I2": [ 23 ],
+            "I3": [ 18 ],
+            "O": [ 55 ]
+          }
+        },
+        "contador_4b_den.next_numero_SB_LUT4_O_3_I2_SB_LUT4_O_2": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
@@ -10577,11 +10552,36 @@
             "O": [ 37 ]
           }
         },
-        "contador_4b_den.next_numero_SB_LUT4_O_3_I3_SB_LUT4_I2_O_SB_LUT4_O_I0_SB_LUT4_O": {
+        "contador_4b_den.next_numero_SB_LUT4_O_3_I2_SB_LUT4_O_I2_SB_LUT4_I2": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
-            "LUT_INIT": "0000000100000000"
+            "LUT_INIT": "0011000000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:22.34-23.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ "0" ],
+            "I1": [ 52 ],
+            "I2": [ 53 ],
+            "I3": [ 51 ],
+            "O": [ 29 ]
+          }
+        },
+        "contador_4b_den.next_numero_SB_LUT4_O_3_I2_SB_LUT4_O_I2_SB_LUT4_I2_O_SB_LUT4_O": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "0100000000000000"
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
@@ -10595,14 +10595,39 @@
             "O": "output"
           },
           "connections": {
-            "I0": [ 21 ],
-            "I1": [ 23 ],
-            "I2": [ 18 ],
-            "I3": [ 25 ],
-            "O": [ 56 ]
+            "I0": [ 56 ],
+            "I1": [ 38 ],
+            "I2": [ 37 ],
+            "I3": [ 57 ],
+            "O": [ 27 ]
           }
         },
-        "contador_4b_den.next_numero_SB_LUT4_O_3_I3_SB_LUT4_I2_O_SB_LUT4_O_I1_SB_LUT4_O": {
+        "contador_4b_den.next_numero_SB_LUT4_O_3_I2_SB_LUT4_O_I2_SB_LUT4_I2_O_SB_LUT4_O_1": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "0011000000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:22.34-23.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ "0" ],
+            "I1": [ 44 ],
+            "I2": [ 34 ],
+            "I3": [ 41 ],
+            "O": [ 26 ]
+          }
+        },
+        "contador_4b_den.next_numero_SB_LUT4_O_3_I2_SB_LUT4_O_I2_SB_LUT4_I2_O_SB_LUT4_O_2": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
@@ -10620,14 +10645,89 @@
             "O": "output"
           },
           "connections": {
-            "I0": [ 25 ],
-            "I1": [ 21 ],
-            "I2": [ 23 ],
-            "I3": [ 18 ],
-            "O": [ 44 ]
+            "I0": [ 49 ],
+            "I1": [ 45 ],
+            "I2": [ 36 ],
+            "I3": [ 43 ],
+            "O": [ 46 ]
           }
         },
-        "contador_4b_den.next_numero_SB_LUT4_O_3_I3_SB_LUT4_I2_O_SB_LUT4_O_I1_SB_LUT4_O_1": {
+        "contador_4b_den.next_numero_SB_LUT4_O_3_I2_SB_LUT4_O_I2_SB_LUT4_I2_O_SB_LUT4_O_I0_SB_LUT4_O": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "1111010100111111"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 54 ],
+            "I1": [ 55 ],
+            "I2": [ 3 ],
+            "I3": [ 2 ],
+            "O": [ 57 ]
+          }
+        },
+        "contador_4b_den.next_numero_SB_LUT4_O_3_I2_SB_LUT4_O_I2_SB_LUT4_I2_O_SB_LUT4_O_I0_SB_LUT4_O_1": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "0000000000001111"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:17.34-18.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ "0" ],
+            "I1": [ "0" ],
+            "I2": [ 43 ],
+            "I3": [ 18 ],
+            "O": [ 56 ]
+          }
+        },
+        "contador_4b_den.next_numero_SB_LUT4_O_3_I2_SB_LUT4_O_I2_SB_LUT4_O": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "1111010100111111"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 55 ],
+            "I1": [ 50 ],
+            "I2": [ 3 ],
+            "I3": [ 2 ],
+            "O": [ 53 ]
+          }
+        },
+        "contador_4b_den.next_numero_SB_LUT4_O_3_I2_SB_LUT4_O_I2_SB_LUT4_O_I1_SB_LUT4_O": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
@@ -10649,107 +10749,7 @@
             "I1": [ 21 ],
             "I2": [ 25 ],
             "I3": [ 18 ],
-            "O": [ 42 ]
-          }
-        },
-        "contador_4b_den.next_numero_SB_LUT4_O_3_I3_SB_LUT4_I3": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "1000000000000000"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ 54 ],
-            "I1": [ 40 ],
-            "I2": [ 36 ],
-            "I3": [ 45 ],
-            "O": [ 52 ]
-          }
-        },
-        "contador_4b_den.next_numero_SB_LUT4_O_3_I3_SB_LUT4_I3_O_SB_LUT4_O": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "0100000000000000"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ 55 ],
-            "I1": [ 38 ],
-            "I2": [ 37 ],
-            "I3": [ 57 ],
-            "O": [ 27 ]
-          }
-        },
-        "contador_4b_den.next_numero_SB_LUT4_O_3_I3_SB_LUT4_I3_O_SB_LUT4_O_1": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "0011000000000000"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:22.34-23.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ "0" ],
-            "I1": [ 51 ],
-            "I2": [ 34 ],
-            "I3": [ 49 ],
-            "O": [ 26 ]
-          }
-        },
-        "contador_4b_den.next_numero_SB_LUT4_O_3_I3_SB_LUT4_I3_O_SB_LUT4_O_2": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "0011000000000000"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:22.34-23.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ "0" ],
-            "I1": [ 46 ],
-            "I2": [ 39 ],
-            "I3": [ 43 ],
-            "O": [ 29 ]
+            "O": [ 50 ]
           }
         },
         "contador_4b_den.next_numero_SB_LUT4_O_3_I3_SB_LUT4_O": {
@@ -10774,7 +10774,7 @@
             "I1": [ 23 ],
             "I2": [ 2 ],
             "I3": [ 3 ],
-            "O": [ 45 ]
+            "O": [ 43 ]
           }
         },
         "contador_4b_num.curr_numero_SB_DFFESR_Q": {
@@ -11227,6 +11227,31 @@
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
+            "LUT_INIT": "1000000000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 64 ],
+            "I1": [ 66 ],
+            "I2": [ 62 ],
+            "I3": [ 60 ],
+            "O": [ 86 ]
+          }
+        },
+        "contador_4b_num.next_numero_SB_LUT4_O_1_I3_SB_LUT4_O_I1_SB_LUT4_O_I1_SB_LUT4_O_1": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
             "LUT_INIT": "0000001100000000"
           },
           "attributes": {
@@ -11268,9 +11293,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ 73 ],
-            "I2": [ 86 ],
-            "I3": [ 87 ],
-            "O": [ 88 ]
+            "I2": [ 87 ],
+            "I3": [ 88 ],
+            "O": [ 89 ]
           }
         },
         "contador_4b_num.next_numero_SB_LUT4_O_1_I3_SB_LUT4_O_I3_SB_LUT4_O": {
@@ -11291,11 +11316,11 @@
             "O": "output"
           },
           "connections": {
-            "I0": [ 89 ],
+            "I0": [ 86 ],
             "I1": [ 78 ],
             "I2": [ 2 ],
             "I3": [ 3 ],
-            "O": [ 87 ]
+            "O": [ 88 ]
           }
         },
         "contador_4b_num.next_numero_SB_LUT4_O_1_I3_SB_LUT4_O_I3_SB_LUT4_O_1": {
@@ -11320,7 +11345,7 @@
             "I1": [ 80 ],
             "I2": [ 2 ],
             "I3": [ 3 ],
-            "O": [ 86 ]
+            "O": [ 87 ]
           }
         },
         "contador_4b_num.next_numero_SB_LUT4_O_1_I3_SB_LUT4_O_I3_SB_LUT4_O_2": {
@@ -11348,131 +11373,6 @@
             "O": [ 73 ]
           }
         },
-        "contador_4b_num.next_numero_SB_LUT4_O_1_I3_SB_LUT4_O_I3_SB_LUT4_O_I0_SB_LUT4_I1": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "1111010100111111"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ 90 ],
-            "I1": [ 89 ],
-            "I2": [ 2 ],
-            "I3": [ 3 ],
-            "O": [ 91 ]
-          }
-        },
-        "contador_4b_num.next_numero_SB_LUT4_O_1_I3_SB_LUT4_O_I3_SB_LUT4_O_I0_SB_LUT4_I1_O_SB_LUT4_I0": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "1000000000000000"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ 92 ],
-            "I1": [ 93 ],
-            "I2": [ 91 ],
-            "I3": [ 94 ],
-            "O": [ 70 ]
-          }
-        },
-        "contador_4b_num.next_numero_SB_LUT4_O_1_I3_SB_LUT4_O_I3_SB_LUT4_O_I0_SB_LUT4_I1_O_SB_LUT4_O": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "1111010100111111"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ 90 ],
-            "I1": [ 95 ],
-            "I2": [ 3 ],
-            "I3": [ 2 ],
-            "O": [ 94 ]
-          }
-        },
-        "contador_4b_num.next_numero_SB_LUT4_O_1_I3_SB_LUT4_O_I3_SB_LUT4_O_I0_SB_LUT4_I1_O_SB_LUT4_O_1": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "1111010100111111"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ 79 ],
-            "I1": [ 84 ],
-            "I2": [ 2 ],
-            "I3": [ 3 ],
-            "O": [ 92 ]
-          }
-        },
-        "contador_4b_num.next_numero_SB_LUT4_O_1_I3_SB_LUT4_O_I3_SB_LUT4_O_I0_SB_LUT4_O": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "1000000000000000"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ 64 ],
-            "I1": [ 66 ],
-            "I2": [ 62 ],
-            "I3": [ 60 ],
-            "O": [ 89 ]
-          }
-        },
         "contador_4b_num.next_numero_SB_LUT4_O_2": {
           "hide_name": 0,
           "type": "SB_LUT4",
@@ -11494,7 +11394,7 @@
             "I0": [ "0" ],
             "I1": [ "0" ],
             "I2": [ 67 ],
-            "I3": [ 96 ],
+            "I3": [ 90 ],
             "O": [ 63 ]
           }
         },
@@ -11517,10 +11417,10 @@
           },
           "connections": {
             "I0": [ 76 ],
-            "I1": [ 97 ],
-            "I2": [ 98 ],
-            "I3": [ 91 ],
-            "O": [ 96 ]
+            "I1": [ 91 ],
+            "I2": [ 92 ],
+            "I3": [ 93 ],
+            "O": [ 90 ]
           }
         },
         "contador_4b_num.next_numero_SB_LUT4_O_2_I3_SB_LUT4_O_I1_SB_LUT4_I0": {
@@ -11541,11 +11441,36 @@
             "O": "output"
           },
           "connections": {
+            "I0": [ 91 ],
+            "I1": [ 94 ],
+            "I2": [ 92 ],
+            "I3": [ 95 ],
+            "O": [ 96 ]
+          }
+        },
+        "contador_4b_num.next_numero_SB_LUT4_O_2_I3_SB_LUT4_O_I1_SB_LUT4_I0_O_SB_LUT4_O": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "1000000000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
             "I0": [ 97 ],
-            "I1": [ 99 ],
-            "I2": [ 98 ],
-            "I3": [ 100 ],
-            "O": [ 101 ]
+            "I1": [ 98 ],
+            "I2": [ 93 ],
+            "I3": [ 99 ],
+            "O": [ 70 ]
           }
         },
         "contador_4b_num.next_numero_SB_LUT4_O_2_I3_SB_LUT4_O_I1_SB_LUT4_O": {
@@ -11567,10 +11492,10 @@
           },
           "connections": {
             "I0": [ 83 ],
-            "I1": [ 102 ],
+            "I1": [ 100 ],
             "I2": [ 2 ],
             "I3": [ 3 ],
-            "O": [ 100 ]
+            "O": [ 95 ]
           }
         },
         "contador_4b_num.next_numero_SB_LUT4_O_2_I3_SB_LUT4_O_I1_SB_LUT4_O_1": {
@@ -11591,14 +11516,39 @@
             "O": "output"
           },
           "connections": {
-            "I0": [ 95 ],
-            "I1": [ 102 ],
+            "I0": [ 101 ],
+            "I1": [ 100 ],
             "I2": [ 3 ],
             "I3": [ 2 ],
-            "O": [ 98 ]
+            "O": [ 92 ]
           }
         },
-        "contador_4b_num.next_numero_SB_LUT4_O_2_I3_SB_LUT4_O_I1_SB_LUT4_O_1_I0_SB_LUT4_O": {
+        "contador_4b_num.next_numero_SB_LUT4_O_2_I3_SB_LUT4_O_I1_SB_LUT4_O_1_I0_SB_LUT4_I1": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "1111010100111111"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 102 ],
+            "I1": [ 101 ],
+            "I2": [ 3 ],
+            "I3": [ 2 ],
+            "O": [ 99 ]
+          }
+        },
+        "contador_4b_num.next_numero_SB_LUT4_O_2_I3_SB_LUT4_O_I1_SB_LUT4_O_1_I0_SB_LUT4_I1_I0_SB_LUT4_O": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
@@ -11620,10 +11570,10 @@
             "I1": [ 66 ],
             "I2": [ 62 ],
             "I3": [ 60 ],
-            "O": [ 90 ]
+            "O": [ 102 ]
           }
         },
-        "contador_4b_num.next_numero_SB_LUT4_O_2_I3_SB_LUT4_O_I1_SB_LUT4_O_1_I0_SB_LUT4_O_1": {
+        "contador_4b_num.next_numero_SB_LUT4_O_2_I3_SB_LUT4_O_I1_SB_LUT4_O_1_I0_SB_LUT4_O": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
@@ -11645,7 +11595,7 @@
             "I1": [ 66 ],
             "I2": [ 64 ],
             "I3": [ 60 ],
-            "O": [ 95 ]
+            "O": [ 101 ]
           }
         },
         "contador_4b_num.next_numero_SB_LUT4_O_2_I3_SB_LUT4_O_I1_SB_LUT4_O_2": {
@@ -11670,7 +11620,7 @@
             "I1": [ 103 ],
             "I2": [ 2 ],
             "I3": [ 3 ],
-            "O": [ 99 ]
+            "O": [ 94 ]
           }
         },
         "contador_4b_num.next_numero_SB_LUT4_O_2_I3_SB_LUT4_O_I1_SB_LUT4_O_2_I0_SB_LUT4_O": {
@@ -11720,7 +11670,7 @@
             "I1": [ 103 ],
             "I2": [ 3 ],
             "I3": [ 2 ],
-            "O": [ 97 ]
+            "O": [ 91 ]
           }
         },
         "contador_4b_num.next_numero_SB_LUT4_O_2_I3_SB_LUT4_O_I1_SB_LUT4_O_3_I0_SB_LUT4_I1": {
@@ -11745,82 +11695,7 @@
             "I1": [ 104 ],
             "I2": [ 3 ],
             "I3": [ 2 ],
-            "O": [ 93 ]
-          }
-        },
-        "contador_4b_num.next_numero_SB_LUT4_O_2_I3_SB_LUT4_O_I1_SB_LUT4_O_3_I0_SB_LUT4_I1_I0_SB_LUT4_I0": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "1111010100111111"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ 105 ],
-            "I1": [ 81 ],
-            "I2": [ 2 ],
-            "I3": [ 3 ],
-            "O": [ 106 ]
-          }
-        },
-        "contador_4b_num.next_numero_SB_LUT4_O_2_I3_SB_LUT4_O_I1_SB_LUT4_O_3_I0_SB_LUT4_I1_I0_SB_LUT4_I0_O_SB_LUT4_I3": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "1111000000000000"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:17.34-18.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ "0" ],
-            "I1": [ "0" ],
-            "I2": [ 70 ],
-            "I3": [ 106 ],
-            "O": [ 107 ]
-          }
-        },
-        "contador_4b_num.next_numero_SB_LUT4_O_2_I3_SB_LUT4_O_I1_SB_LUT4_O_3_I0_SB_LUT4_I1_I0_SB_LUT4_I0_O_SB_LUT4_I3_O_SB_LUT4_O": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "1100000000000000"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:22.34-23.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ "0" ],
-            "I1": [ 101 ],
-            "I2": [ 76 ],
-            "I3": [ 88 ],
-            "O": [ 108 ]
+            "O": [ 98 ]
           }
         },
         "contador_4b_num.next_numero_SB_LUT4_O_2_I3_SB_LUT4_O_I1_SB_LUT4_O_3_I0_SB_LUT4_I1_I0_SB_LUT4_O": {
@@ -11846,6 +11721,56 @@
             "I2": [ 62 ],
             "I3": [ 60 ],
             "O": [ 105 ]
+          }
+        },
+        "contador_4b_num.next_numero_SB_LUT4_O_2_I3_SB_LUT4_O_I1_SB_LUT4_O_3_I0_SB_LUT4_I1_O_SB_LUT4_O": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "1111010100111111"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 102 ],
+            "I1": [ 86 ],
+            "I2": [ 2 ],
+            "I3": [ 3 ],
+            "O": [ 93 ]
+          }
+        },
+        "contador_4b_num.next_numero_SB_LUT4_O_2_I3_SB_LUT4_O_I1_SB_LUT4_O_3_I0_SB_LUT4_I1_O_SB_LUT4_O_1": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "1111010100111111"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 79 ],
+            "I1": [ 84 ],
+            "I2": [ 2 ],
+            "I3": [ 3 ],
+            "O": [ 97 ]
           }
         },
         "contador_4b_num.next_numero_SB_LUT4_O_2_I3_SB_LUT4_O_I1_SB_LUT4_O_3_I0_SB_LUT4_O": {
@@ -11945,7 +11870,7 @@
             "I1": [ 62 ],
             "I2": [ 66 ],
             "I3": [ 60 ],
-            "O": [ 102 ]
+            "O": [ 100 ]
           }
         },
         "contador_4b_num.next_numero_SB_LUT4_O_3": {
@@ -11991,9 +11916,9 @@
             "O": "output"
           },
           "connections": {
-            "I0": [ 101 ],
+            "I0": [ 96 ],
             "I1": [ 76 ],
-            "I2": [ 88 ],
+            "I2": [ 89 ],
             "I3": [ 70 ],
             "O": [ 67 ]
           }
@@ -12016,10 +11941,10 @@
             "O": "output"
           },
           "connections": {
-            "I0": [ 101 ],
-            "I1": [ 93 ],
-            "I2": [ 91 ],
-            "I3": [ 94 ],
+            "I0": [ 96 ],
+            "I1": [ 98 ],
+            "I2": [ 93 ],
+            "I3": [ 99 ],
             "O": [ 68 ]
           }
         },
@@ -12040,9 +11965,9 @@
           },
           "connections": {
             "C": [ 5 ],
-            "D": [ 109 ],
-            "E": [ 110 ],
-            "Q": [ 111 ]
+            "D": [ 106 ],
+            "E": [ 107 ],
+            "Q": [ 108 ]
           }
         },
         "divisor0.num_reg_SB_DFFE_Q_1": {
@@ -12062,9 +11987,9 @@
           },
           "connections": {
             "C": [ 5 ],
-            "D": [ 112 ],
-            "E": [ 110 ],
-            "Q": [ 113 ]
+            "D": [ 109 ],
+            "E": [ 107 ],
+            "Q": [ 110 ]
           }
         },
         "divisor0.num_reg_SB_DFFE_Q_1_D_SB_LUT4_O": {
@@ -12087,9 +12012,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ 62 ],
-            "I2": [ 114 ],
+            "I2": [ 111 ],
             "I3": [ 12 ],
-            "O": [ 112 ]
+            "O": [ 109 ]
           }
         },
         "divisor0.num_reg_SB_DFFE_Q_2": {
@@ -12109,9 +12034,9 @@
           },
           "connections": {
             "C": [ 5 ],
-            "D": [ 115 ],
-            "E": [ 110 ],
-            "Q": [ 116 ]
+            "D": [ 112 ],
+            "E": [ 107 ],
+            "Q": [ 113 ]
           }
         },
         "divisor0.num_reg_SB_DFFE_Q_2_D_SB_LUT4_O": {
@@ -12134,9 +12059,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ 64 ],
-            "I2": [ 117 ],
+            "I2": [ 114 ],
             "I3": [ 12 ],
-            "O": [ 115 ]
+            "O": [ 112 ]
           }
         },
         "divisor0.num_reg_SB_DFFE_Q_3": {
@@ -12156,9 +12081,9 @@
           },
           "connections": {
             "C": [ 5 ],
-            "D": [ 118 ],
-            "E": [ 110 ],
-            "Q": [ 119 ]
+            "D": [ 115 ],
+            "E": [ 107 ],
+            "Q": [ 116 ]
           }
         },
         "divisor0.num_reg_SB_DFFE_Q_3_D_SB_LUT4_O": {
@@ -12181,9 +12106,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ 66 ],
-            "I2": [ 120 ],
+            "I2": [ 117 ],
             "I3": [ 12 ],
-            "O": [ 118 ]
+            "O": [ 115 ]
           }
         },
         "divisor0.num_reg_SB_DFFE_Q_D_SB_LUT4_O": {
@@ -12206,9 +12131,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ 60 ],
-            "I2": [ 121 ],
+            "I2": [ 118 ],
             "I3": [ 12 ],
-            "O": [ 109 ]
+            "O": [ 106 ]
           }
         },
         "divisor0.rest_SB_DFFESR_Q": {
@@ -12229,10 +12154,10 @@
           },
           "connections": {
             "C": [ 5 ],
-            "D": [ 121 ],
-            "E": [ 110 ],
-            "Q": [ 122 ],
-            "R": [ 123 ]
+            "D": [ 118 ],
+            "E": [ 107 ],
+            "Q": [ 119 ],
+            "R": [ 120 ]
           }
         },
         "divisor0.rest_SB_DFFESR_Q_1": {
@@ -12253,10 +12178,10 @@
           },
           "connections": {
             "C": [ 5 ],
-            "D": [ 114 ],
-            "E": [ 110 ],
-            "Q": [ 124 ],
-            "R": [ 123 ]
+            "D": [ 111 ],
+            "E": [ 107 ],
+            "Q": [ 121 ],
+            "R": [ 120 ]
           }
         },
         "divisor0.rest_SB_DFFESR_Q_2": {
@@ -12277,10 +12202,10 @@
           },
           "connections": {
             "C": [ 5 ],
-            "D": [ 117 ],
-            "E": [ 110 ],
-            "Q": [ 125 ],
-            "R": [ 123 ]
+            "D": [ 114 ],
+            "E": [ 107 ],
+            "Q": [ 122 ],
+            "R": [ 120 ]
           }
         },
         "divisor0.rest_SB_DFFESR_Q_3": {
@@ -12301,135 +12226,10 @@
           },
           "connections": {
             "C": [ 5 ],
-            "D": [ 120 ],
-            "E": [ 110 ],
-            "Q": [ 126 ],
-            "R": [ 123 ]
-          }
-        },
-        "divisor0.rest_SB_DFFESR_Q_D_SB_LUT4_O": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "0110100110010110"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:47.21-47.42|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ "0" ],
-            "I1": [ 119 ],
-            "I2": [ 127 ],
-            "I3": [ "1" ],
-            "O": [ 120 ]
-          }
-        },
-        "divisor0.rest_SB_DFFESR_Q_D_SB_LUT4_O_I2_SB_LUT4_O": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "0000000011111111"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:12.34-13.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ "0" ],
-            "I1": [ "0" ],
-            "I2": [ "0" ],
-            "I3": [ 18 ],
-            "O": [ 128 ]
-          }
-        },
-        "divisor0.rest_SB_DFFESR_Q_D_SB_LUT4_O_I2_SB_LUT4_O_1": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "0000000011111111"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:12.34-13.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ "0" ],
-            "I1": [ "0" ],
-            "I2": [ "0" ],
-            "I3": [ 23 ],
-            "O": [ 129 ]
-          }
-        },
-        "divisor0.rest_SB_DFFESR_Q_D_SB_LUT4_O_I2_SB_LUT4_O_2": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "0000000011111111"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:12.34-13.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ "0" ],
-            "I1": [ "0" ],
-            "I2": [ "0" ],
-            "I3": [ 21 ],
-            "O": [ 130 ]
-          }
-        },
-        "divisor0.rest_SB_DFFESR_Q_D_SB_LUT4_O_I2_SB_LUT4_O_3": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "0000000011111111"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:12.34-13.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ "0" ],
-            "I1": [ "0" ],
-            "I2": [ "0" ],
-            "I3": [ 25 ],
-            "O": [ 127 ]
+            "D": [ 117 ],
+            "E": [ 107 ],
+            "Q": [ 123 ],
+            "R": [ 120 ]
           }
         },
         "divisor0.rest_SB_DFFESR_Q_R_SB_LUT4_O": {
@@ -12454,7 +12254,7 @@
             "I1": [ "0" ],
             "I2": [ "0" ],
             "I3": [ 12 ],
-            "O": [ 123 ]
+            "O": [ 120 ]
           }
         },
         "divisor0.result_SB_DFFESR_Q": {
@@ -12475,10 +12275,10 @@
           },
           "connections": {
             "C": [ 5 ],
-            "D": [ 131 ],
-            "E": [ 110 ],
-            "Q": [ 132 ],
-            "R": [ 123 ]
+            "D": [ 124 ],
+            "E": [ 107 ],
+            "Q": [ 125 ],
+            "R": [ 120 ]
           }
         },
         "divisor0.result_SB_DFFESR_Q_1": {
@@ -12499,10 +12299,10 @@
           },
           "connections": {
             "C": [ 5 ],
-            "D": [ 133 ],
-            "E": [ 110 ],
-            "Q": [ 134 ],
-            "R": [ 123 ]
+            "D": [ 126 ],
+            "E": [ 107 ],
+            "Q": [ 127 ],
+            "R": [ 120 ]
           }
         },
         "divisor0.result_SB_DFFESR_Q_2": {
@@ -12523,10 +12323,10 @@
           },
           "connections": {
             "C": [ 5 ],
-            "D": [ 135 ],
-            "E": [ 110 ],
-            "Q": [ 136 ],
-            "R": [ 123 ]
+            "D": [ 128 ],
+            "E": [ 107 ],
+            "Q": [ 129 ],
+            "R": [ 120 ]
           }
         },
         "divisor0.result_SB_DFFESR_Q_3": {
@@ -12547,10 +12347,10 @@
           },
           "connections": {
             "C": [ 5 ],
-            "D": [ 137 ],
-            "E": [ 110 ],
-            "Q": [ 138 ],
-            "R": [ 123 ]
+            "D": [ 130 ],
+            "E": [ 107 ],
+            "Q": [ 131 ],
+            "R": [ 120 ]
           }
         },
         "divisor0.result_SB_DFFESR_Q_D_SB_LUT4_O": {
@@ -12573,9 +12373,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ "0" ],
-            "I2": [ 132 ],
-            "I3": [ 139 ],
-            "O": [ 131 ]
+            "I2": [ 125 ],
+            "I3": [ 132 ],
+            "O": [ 124 ]
           }
         },
         "divisor0.result_SB_DFFESR_Q_D_SB_LUT4_O_1": {
@@ -12598,9 +12398,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ "0" ],
-            "I2": [ 134 ],
-            "I3": [ 140 ],
-            "O": [ 133 ]
+            "I2": [ 127 ],
+            "I3": [ 133 ],
+            "O": [ 126 ]
           }
         },
         "divisor0.result_SB_DFFESR_Q_D_SB_LUT4_O_2": {
@@ -12623,9 +12423,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ "0" ],
-            "I2": [ 136 ],
-            "I3": [ 138 ],
-            "O": [ 135 ]
+            "I2": [ 129 ],
+            "I3": [ 131 ],
+            "O": [ 128 ]
           }
         },
         "divisor0.result_SB_DFFESR_Q_D_SB_LUT4_O_3": {
@@ -12649,8 +12449,8 @@
             "I0": [ "0" ],
             "I1": [ "0" ],
             "I2": [ "0" ],
-            "I3": [ 138 ],
-            "O": [ 137 ]
+            "I3": [ 131 ],
+            "O": [ 130 ]
           }
         },
         "divisor0.result_SB_DFFESR_Q_D_SB_LUT4_O_I3_SB_CARRY_CO": {
@@ -12668,10 +12468,10 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 140 ],
-            "CO": [ 139 ],
+            "CI": [ 133 ],
+            "CO": [ 132 ],
             "I0": [ "0" ],
-            "I1": [ 134 ]
+            "I1": [ 127 ]
           }
         },
         "divisor0.result_SB_DFFESR_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_1": {
@@ -12689,10 +12489,10 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 138 ],
-            "CO": [ 140 ],
+            "CI": [ 131 ],
+            "CO": [ 133 ],
             "I0": [ "0" ],
-            "I1": [ 136 ]
+            "I1": [ 129 ]
           }
         },
         "divisor0.state_SB_DFF_Q": {
@@ -12711,8 +12511,8 @@
           },
           "connections": {
             "C": [ 5 ],
-            "D": [ 141 ],
-            "Q": [ 142 ]
+            "D": [ 134 ],
+            "Q": [ 135 ]
           }
         },
         "divisor0.state_SB_LUT4_I2": {
@@ -12733,11 +12533,11 @@
             "O": "output"
           },
           "connections": {
-            "I0": [ 143 ],
-            "I1": [ 144 ],
-            "I2": [ 142 ],
+            "I0": [ 136 ],
+            "I1": [ 137 ],
+            "I2": [ 135 ],
             "I3": [ 12 ],
-            "O": [ 141 ]
+            "O": [ 134 ]
           }
         },
         "divisor0.state_SB_LUT4_I2_1": {
@@ -12759,10 +12559,10 @@
           },
           "connections": {
             "I0": [ "0" ],
-            "I1": [ 145 ],
-            "I2": [ 142 ],
+            "I1": [ 138 ],
+            "I2": [ 135 ],
             "I3": [ 12 ],
-            "O": [ 110 ]
+            "O": [ 107 ]
           }
         },
         "divisor0.state_SB_LUT4_I2_1_I1_SB_LUT4_O": {
@@ -12784,10 +12584,10 @@
           },
           "connections": {
             "I0": [ "0" ],
-            "I1": [ 146 ],
-            "I2": [ 147 ],
-            "I3": [ 148 ],
-            "O": [ 145 ]
+            "I1": [ 139 ],
+            "I2": [ 140 ],
+            "I3": [ 141 ],
+            "O": [ 138 ]
           }
         },
         "divisor0.state_SB_LUT4_I2_1_I1_SB_LUT4_O_I1_SB_LUT4_O": {
@@ -12809,10 +12609,10 @@
           },
           "connections": {
             "I0": [ 25 ],
-            "I1": [ 119 ],
+            "I1": [ 116 ],
             "I2": [ 23 ],
-            "I3": [ 116 ],
-            "O": [ 146 ]
+            "I3": [ 113 ],
+            "O": [ 139 ]
           }
         },
         "divisor0.state_SB_LUT4_I2_1_I1_SB_LUT4_O_I1_SB_LUT4_O_1": {
@@ -12834,10 +12634,10 @@
           },
           "connections": {
             "I0": [ 21 ],
-            "I1": [ 113 ],
+            "I1": [ 110 ],
             "I2": [ 18 ],
-            "I3": [ 111 ],
-            "O": [ 147 ]
+            "I3": [ 108 ],
+            "O": [ 140 ]
           }
         },
         "divisor0.state_SB_LUT4_I2_1_I1_SB_LUT4_O_I3_SB_CARRY_CO": {
@@ -12846,7 +12646,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:47.21-47.42|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:47.21-47.34|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -12855,10 +12655,10 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 149 ],
-            "CO": [ 148 ],
-            "I0": [ 111 ],
-            "I1": [ 128 ]
+            "CI": [ 142 ],
+            "CO": [ 141 ],
+            "I0": [ 108 ],
+            "I1": [ 143 ]
           }
         },
         "divisor0.state_SB_LUT4_I2_1_I1_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO": {
@@ -12867,7 +12667,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:47.21-47.42|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:47.21-47.34|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -12876,10 +12676,10 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 150 ],
-            "CO": [ 149 ],
-            "I0": [ 113 ],
-            "I1": [ 130 ]
+            "CI": [ 144 ],
+            "CO": [ 142 ],
+            "I0": [ 110 ],
+            "I1": [ 145 ]
           }
         },
         "divisor0.state_SB_LUT4_I2_1_I1_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_1": {
@@ -12888,7 +12688,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:47.21-47.42|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:47.21-47.34|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -12897,10 +12697,10 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 151 ],
-            "CO": [ 150 ],
-            "I0": [ 116 ],
-            "I1": [ 129 ]
+            "CI": [ 146 ],
+            "CO": [ 144 ],
+            "I0": [ 113 ],
+            "I1": [ 147 ]
           }
         },
         "divisor0.state_SB_LUT4_I2_1_I1_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_2": {
@@ -12909,7 +12709,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:47.21-47.42|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:47.21-47.34|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -12919,9 +12719,9 @@
           },
           "connections": {
             "CI": [ "1" ],
-            "CO": [ 151 ],
-            "I0": [ 119 ],
-            "I1": [ 127 ]
+            "CO": [ 146 ],
+            "I0": [ 116 ],
+            "I1": [ 148 ]
           }
         },
         "divisor0.state_SB_LUT4_I2_1_I1_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_LUT4_I3": {
@@ -12932,7 +12732,32 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:47.21-47.42|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:47.21-47.34|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ "0" ],
+            "I1": [ 110 ],
+            "I2": [ 145 ],
+            "I3": [ 144 ],
+            "O": [ 111 ]
+          }
+        },
+        "divisor0.state_SB_LUT4_I2_1_I1_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_LUT4_I3_1": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "0110100110010110"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:47.21-47.34|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -12944,12 +12769,12 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ 113 ],
-            "I2": [ 130 ],
-            "I3": [ 150 ],
+            "I2": [ 147 ],
+            "I3": [ 146 ],
             "O": [ 114 ]
           }
         },
-        "divisor0.state_SB_LUT4_I2_1_I1_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_LUT4_I3_1": {
+        "divisor0.state_SB_LUT4_I2_1_I1_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_LUT4_I3_2": {
           "hide_name": 0,
           "type": "SB_LUT4",
           "parameters": {
@@ -12957,7 +12782,32 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:47.21-47.42|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:47.21-47.34|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ "0" ],
+            "I1": [ 108 ],
+            "I2": [ 143 ],
+            "I3": [ 142 ],
+            "O": [ 118 ]
+          }
+        },
+        "divisor0.state_SB_LUT4_I2_1_I1_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_LUT4_I3_O_SB_LUT4_O": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "0110100110010110"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:47.21-47.34|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -12969,34 +12819,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ 116 ],
-            "I2": [ 129 ],
-            "I3": [ 151 ],
+            "I2": [ 148 ],
+            "I3": [ "1" ],
             "O": [ 117 ]
-          }
-        },
-        "divisor0.state_SB_LUT4_I2_1_I1_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_LUT4_I3_2": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "0110100110010110"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:47.21-47.42|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ "0" ],
-            "I1": [ 111 ],
-            "I2": [ 128 ],
-            "I3": [ 149 ],
-            "O": [ 121 ]
           }
         },
         "divisor0.state_SB_LUT4_I2_I0_SB_LUT4_O": {
@@ -13021,7 +12846,7 @@
             "I1": [ 21 ],
             "I2": [ 23 ],
             "I3": [ 18 ],
-            "O": [ 143 ]
+            "O": [ 136 ]
           }
         },
         "divisor0.state_SB_LUT4_I2_I0_SB_LUT4_O_1": {
@@ -13042,11 +12867,11 @@
             "O": "output"
           },
           "connections": {
-            "I0": [ 152 ],
-            "I1": [ 153 ],
-            "I2": [ 154 ],
-            "I3": [ 155 ],
-            "O": [ 144 ]
+            "I0": [ 149 ],
+            "I1": [ 150 ],
+            "I2": [ 151 ],
+            "I3": [ 152 ],
+            "O": [ 137 ]
           }
         },
         "divisor0.state_SB_LUT4_I2_I0_SB_LUT4_O_1_I0_SB_LUT4_O": {
@@ -13071,7 +12896,7 @@
             "I1": [ 23 ],
             "I2": [ 25 ],
             "I3": [ 66 ],
-            "O": [ 154 ]
+            "O": [ 151 ]
           }
         },
         "divisor0.state_SB_LUT4_I2_I0_SB_LUT4_O_1_I0_SB_LUT4_O_1": {
@@ -13096,7 +12921,7 @@
             "I1": [ "0" ],
             "I2": [ 62 ],
             "I3": [ 21 ],
-            "O": [ 152 ]
+            "O": [ 149 ]
           }
         },
         "divisor0.state_SB_LUT4_I2_I0_SB_LUT4_O_1_I0_SB_LUT4_O_2": {
@@ -13121,7 +12946,7 @@
             "I1": [ "0" ],
             "I2": [ 60 ],
             "I3": [ 18 ],
-            "O": [ 153 ]
+            "O": [ 150 ]
           }
         },
         "divisor0.state_SB_LUT4_I2_I0_SB_LUT4_O_1_I3_SB_CARRY_CO": {
@@ -13130,7 +12955,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:38.11-38.33|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:38.11-38.19|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -13139,10 +12964,10 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 156 ],
-            "CO": [ 155 ],
+            "CI": [ 153 ],
+            "CO": [ 152 ],
             "I0": [ 60 ],
-            "I1": [ 128 ]
+            "I1": [ 143 ]
           }
         },
         "divisor0.state_SB_LUT4_I2_I0_SB_LUT4_O_1_I3_SB_CARRY_CO_CI_SB_CARRY_CO": {
@@ -13151,7 +12976,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:38.11-38.33|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:38.11-38.19|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -13160,10 +12985,10 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 157 ],
-            "CO": [ 156 ],
+            "CI": [ 154 ],
+            "CO": [ 153 ],
             "I0": [ 62 ],
-            "I1": [ 130 ]
+            "I1": [ 145 ]
           }
         },
         "divisor0.state_SB_LUT4_I2_I0_SB_LUT4_O_1_I3_SB_CARRY_CO_CI_SB_CARRY_CO_1": {
@@ -13172,7 +12997,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:38.11-38.33|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:38.11-38.19|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -13181,10 +13006,10 @@
             "I1": "input"
           },
           "connections": {
-            "CI": [ 158 ],
-            "CO": [ 157 ],
+            "CI": [ 155 ],
+            "CO": [ 154 ],
             "I0": [ 64 ],
-            "I1": [ 129 ]
+            "I1": [ 147 ]
           }
         },
         "divisor0.state_SB_LUT4_I2_I0_SB_LUT4_O_1_I3_SB_CARRY_CO_CI_SB_CARRY_CO_2": {
@@ -13193,7 +13018,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:38.11-38.33|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:38.11-38.19|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -13203,9 +13028,109 @@
           },
           "connections": {
             "CI": [ "1" ],
-            "CO": [ 158 ],
+            "CO": [ 155 ],
             "I0": [ 66 ],
-            "I1": [ 127 ]
+            "I1": [ 148 ]
+          }
+        },
+        "divisor0.state_SB_LUT4_I2_I0_SB_LUT4_O_1_I3_SB_CARRY_CO_I1_SB_LUT4_O": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "0000000011111111"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:12.34-13.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ "0" ],
+            "I1": [ "0" ],
+            "I2": [ "0" ],
+            "I3": [ 18 ],
+            "O": [ 143 ]
+          }
+        },
+        "divisor0.state_SB_LUT4_I2_I0_SB_LUT4_O_1_I3_SB_CARRY_CO_I1_SB_LUT4_O_1": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "0000000011111111"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:12.34-13.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ "0" ],
+            "I1": [ "0" ],
+            "I2": [ "0" ],
+            "I3": [ 23 ],
+            "O": [ 147 ]
+          }
+        },
+        "divisor0.state_SB_LUT4_I2_I0_SB_LUT4_O_1_I3_SB_CARRY_CO_I1_SB_LUT4_O_2": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "0000000011111111"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:12.34-13.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ "0" ],
+            "I1": [ "0" ],
+            "I2": [ "0" ],
+            "I3": [ 21 ],
+            "O": [ 145 ]
+          }
+        },
+        "divisor0.state_SB_LUT4_I2_I0_SB_LUT4_O_1_I3_SB_CARRY_CO_I1_SB_LUT4_O_3": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "0000000011111111"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:12.34-13.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ "0" ],
+            "I1": [ "0" ],
+            "I2": [ "0" ],
+            "I3": [ 25 ],
+            "O": [ 148 ]
           }
         },
         "leds_SB_LUT4_O": {
@@ -13229,7 +13154,7 @@
             "I0": [ 60 ],
             "I1": [ 18 ],
             "I2": [ 12 ],
-            "I3": [ 159 ],
+            "I3": [ 156 ],
             "O": [ 10 ]
           }
         },
@@ -13254,7 +13179,7 @@
             "I0": [ 62 ],
             "I1": [ 21 ],
             "I2": [ 12 ],
-            "I3": [ 160 ],
+            "I3": [ 157 ],
             "O": [ 9 ]
           }
         },
@@ -13276,11 +13201,11 @@
             "O": "output"
           },
           "connections": {
-            "I0": [ 134 ],
-            "I1": [ 124 ],
+            "I0": [ 127 ],
+            "I1": [ 121 ],
             "I2": [ 12 ],
             "I3": [ 14 ],
-            "O": [ 160 ]
+            "O": [ 157 ]
           }
         },
         "leds_SB_LUT4_O_2": {
@@ -13304,7 +13229,7 @@
             "I0": [ 64 ],
             "I1": [ 23 ],
             "I2": [ 12 ],
-            "I3": [ 161 ],
+            "I3": [ 158 ],
             "O": [ 8 ]
           }
         },
@@ -13326,11 +13251,11 @@
             "O": "output"
           },
           "connections": {
-            "I0": [ 136 ],
-            "I1": [ 125 ],
+            "I0": [ 129 ],
+            "I1": [ 122 ],
             "I2": [ 12 ],
             "I3": [ 14 ],
-            "O": [ 161 ]
+            "O": [ 158 ]
           }
         },
         "leds_SB_LUT4_O_3": {
@@ -13354,7 +13279,7 @@
             "I0": [ 66 ],
             "I1": [ 25 ],
             "I2": [ 12 ],
-            "I3": [ 162 ],
+            "I3": [ 159 ],
             "O": [ 7 ]
           }
         },
@@ -13376,11 +13301,11 @@
             "O": "output"
           },
           "connections": {
-            "I0": [ 138 ],
-            "I1": [ 126 ],
+            "I0": [ 131 ],
+            "I1": [ 123 ],
             "I2": [ 12 ],
             "I3": [ 14 ],
-            "O": [ 162 ]
+            "O": [ 159 ]
           }
         },
         "leds_SB_LUT4_O_I3_SB_LUT4_O": {
@@ -13401,11 +13326,11 @@
             "O": "output"
           },
           "connections": {
-            "I0": [ 132 ],
-            "I1": [ 122 ],
+            "I0": [ 125 ],
+            "I1": [ 119 ],
             "I2": [ 12 ],
             "I3": [ 14 ],
-            "O": [ 159 ]
+            "O": [ 156 ]
           }
         },
         "ok_SB_LUT4_I2": {
@@ -13429,7 +13354,7 @@
             "I0": [ "0" ],
             "I1": [ "0" ],
             "I2": [ 4 ],
-            "I3": [ 163 ],
+            "I3": [ 160 ],
             "O": [ 15 ]
           }
         },
@@ -13455,7 +13380,7 @@
             "I1": [ "0" ],
             "I2": [ "0" ],
             "I3": [ 4 ],
-            "O": [ 164 ]
+            "O": [ 161 ]
           }
         },
         "ok_SB_LUT4_I3_O_SB_DFF_D": {
@@ -13474,8 +13399,8 @@
           },
           "connections": {
             "C": [ 5 ],
-            "D": [ 164 ],
-            "Q": [ 163 ]
+            "D": [ 161 ],
+            "Q": [ 160 ]
           }
         },
         "rst_SB_LUT4_I3": {
@@ -13496,9 +13421,9 @@
             "O": "output"
           },
           "connections": {
-            "I0": [ 107 ],
-            "I1": [ 108 ],
-            "I2": [ 165 ],
+            "I0": [ 162 ],
+            "I1": [ 163 ],
+            "I2": [ 164 ],
             "I3": [ 6 ],
             "O": [ 59 ]
           }
@@ -13546,35 +13471,10 @@
             "O": "output"
           },
           "connections": {
-            "I0": [ 107 ],
-            "I1": [ 108 ],
-            "I2": [ 166 ],
+            "I0": [ 162 ],
+            "I1": [ 163 ],
+            "I2": [ 165 ],
             "I3": [ 6 ],
-            "O": [ 167 ]
-          }
-        },
-        "rst_SB_LUT4_I3_2_I2_SB_LUT4_O": {
-          "hide_name": 0,
-          "type": "SB_LUT4",
-          "parameters": {
-            "LUT_INIT": "0000001100000000"
-          },
-          "attributes": {
-            "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:22.34-23.52"
-          },
-          "port_directions": {
-            "I0": "input",
-            "I1": "input",
-            "I2": "input",
-            "I3": "input",
-            "O": "output"
-          },
-          "connections": {
-            "I0": [ "0" ],
-            "I1": [ 168 ],
-            "I2": [ 12 ],
-            "I3": [ 14 ],
             "O": [ 166 ]
           }
         },
@@ -13597,9 +13497,109 @@
           "connections": {
             "C": [ 5 ],
             "D": [ "1" ],
-            "E": [ 167 ],
-            "Q": [ 168 ],
-            "R": [ 169 ]
+            "E": [ 166 ],
+            "Q": [ 167 ],
+            "R": [ 168 ]
+          }
+        },
+        "rst_SB_LUT4_I3_2_O_SB_DFFESR_E_Q_SB_LUT4_I1": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "0000001100000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:22.34-23.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ "0" ],
+            "I1": [ 167 ],
+            "I2": [ 12 ],
+            "I3": [ 14 ],
+            "O": [ 165 ]
+          }
+        },
+        "rst_SB_LUT4_I3_2_O_SB_DFFESR_E_Q_SB_LUT4_I1_O_SB_LUT4_O": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "1111000000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:17.34-18.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ "0" ],
+            "I1": [ "0" ],
+            "I2": [ 70 ],
+            "I3": [ 169 ],
+            "O": [ 162 ]
+          }
+        },
+        "rst_SB_LUT4_I3_2_O_SB_DFFESR_E_Q_SB_LUT4_I1_O_SB_LUT4_O_1": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "1100000000000000"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:22.34-23.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ "0" ],
+            "I1": [ 96 ],
+            "I2": [ 76 ],
+            "I3": [ 89 ],
+            "O": [ 163 ]
+          }
+        },
+        "rst_SB_LUT4_I3_2_O_SB_DFFESR_E_Q_SB_LUT4_I1_O_SB_LUT4_O_I3_SB_LUT4_O": {
+          "hide_name": 0,
+          "type": "SB_LUT4",
+          "parameters": {
+            "LUT_INIT": "1111010100111111"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:26.33-27.52"
+          },
+          "port_directions": {
+            "I0": "input",
+            "I1": "input",
+            "I2": "input",
+            "I3": "input",
+            "O": "output"
+          },
+          "connections": {
+            "I0": [ 105 ],
+            "I1": [ 81 ],
+            "I2": [ 2 ],
+            "I3": [ 3 ],
+            "O": [ 169 ]
           }
         },
         "rst_SB_LUT4_I3_2_O_SB_DFFESR_E_R_SB_LUT4_O": {
@@ -13622,9 +13622,9 @@
           "connections": {
             "I0": [ "0" ],
             "I1": [ "0" ],
-            "I2": [ 108 ],
-            "I3": [ 107 ],
-            "O": [ 169 ]
+            "I2": [ 163 ],
+            "I3": [ 162 ],
+            "O": [ 168 ]
           }
         },
         "rst_SB_LUT4_I3_3": {
@@ -13645,9 +13645,9 @@
             "O": "output"
           },
           "connections": {
-            "I0": [ 107 ],
-            "I1": [ 108 ],
-            "I2": [ 165 ],
+            "I0": [ 162 ],
+            "I1": [ 163 ],
+            "I2": [ 164 ],
             "I3": [ 6 ],
             "O": [ 170 ]
           }
@@ -13673,7 +13673,7 @@
             "D": [ "1" ],
             "E": [ 170 ],
             "Q": [ 171 ],
-            "R": [ 169 ]
+            "R": [ 168 ]
           }
         },
         "rst_SB_LUT4_I3_4": {
@@ -13694,9 +13694,9 @@
             "O": "output"
           },
           "connections": {
-            "I0": [ 107 ],
-            "I1": [ 108 ],
-            "I2": [ 166 ],
+            "I0": [ 162 ],
+            "I1": [ 163 ],
+            "I2": [ 165 ],
             "I3": [ 6 ],
             "O": [ 17 ]
           }
@@ -13723,7 +13723,7 @@
             "I1": [ 171 ],
             "I2": [ 12 ],
             "I3": [ 14 ],
-            "O": [ 165 ]
+            "O": [ 164 ]
           }
         }
       },
@@ -13819,25 +13819,9 @@
             "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
           }
         },
-        "contador_4b_den.next_numero_SB_LUT4_O_2_I2_SB_LUT4_O_I0": {
-          "hide_name": 0,
-          "bits": [ 35, 36, 37, 38 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
-          }
-        },
-        "contador_4b_den.next_numero_SB_LUT4_O_2_I2_SB_LUT4_O_I0_SB_LUT4_O_I2": {
-          "hide_name": 0,
-          "bits": [ 46, 39, 43 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
-          }
-        },
         "contador_4b_den.next_numero_SB_LUT4_O_2_I3": {
           "hide_name": 0,
-          "bits": [ 51, 34, 49 ],
+          "bits": [ 44, 34, 41 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
@@ -13845,7 +13829,7 @@
         },
         "contador_4b_den.next_numero_SB_LUT4_O_2_I3_SB_LUT4_O_I0": {
           "hide_name": 0,
-          "bits": [ 47, 48, 2, 3 ],
+          "bits": [ 39, 40, 2, 3 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
@@ -13853,7 +13837,7 @@
         },
         "contador_4b_den.next_numero_SB_LUT4_O_3_I0": {
           "hide_name": 0,
-          "bits": [ 28, 40, 37, 45 ],
+          "bits": [ 28, 45, 37, 43 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
@@ -13861,7 +13845,15 @@
         },
         "contador_4b_den.next_numero_SB_LUT4_O_3_I1": {
           "hide_name": 0,
-          "bits": [ 54, 40, 36, 45 ],
+          "bits": [ 49, 45, 36, 43 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
+          }
+        },
+        "contador_4b_den.next_numero_SB_LUT4_O_3_I1_SB_LUT4_O_1_I0": {
+          "hide_name": 0,
+          "bits": [ 40, 42, 2, 3 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
@@ -13869,7 +13861,7 @@
         },
         "contador_4b_den.next_numero_SB_LUT4_O_3_I1_SB_LUT4_O_I0": {
           "hide_name": 0,
-          "bits": [ 50, 53, 2, 3 ],
+          "bits": [ 42, 47, 2, 3 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
@@ -13877,7 +13869,63 @@
         },
         "contador_4b_den.next_numero_SB_LUT4_O_3_I1_SB_LUT4_O_I1": {
           "hide_name": 0,
-          "bits": [ 53, 41, 2, 3 ],
+          "bits": [ 47, 48, 2, 3 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
+          }
+        },
+        "contador_4b_den.next_numero_SB_LUT4_O_3_I1_SB_LUT4_O_I1_SB_LUT4_I0_O": {
+          "hide_name": 0,
+          "bits": [ 52, 53, 51 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
+          }
+        },
+        "contador_4b_den.next_numero_SB_LUT4_O_3_I2": {
+          "hide_name": 0,
+          "bits": [ 35, 36, 37, 38 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
+          }
+        },
+        "contador_4b_den.next_numero_SB_LUT4_O_3_I2_SB_LUT4_O_1_I0": {
+          "hide_name": 0,
+          "bits": [ 54, 55, 3, 2 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
+          }
+        },
+        "contador_4b_den.next_numero_SB_LUT4_O_3_I2_SB_LUT4_O_I2": {
+          "hide_name": 0,
+          "bits": [ 53, 45 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
+          }
+        },
+        "contador_4b_den.next_numero_SB_LUT4_O_3_I2_SB_LUT4_O_I2_SB_LUT4_I2_O": {
+          "hide_name": 0,
+          "bits": [ 29, 46, 26, 27 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
+          }
+        },
+        "contador_4b_den.next_numero_SB_LUT4_O_3_I2_SB_LUT4_O_I2_SB_LUT4_I2_O_SB_LUT4_O_I0": {
+          "hide_name": 0,
+          "bits": [ 56, 38, 37, 57 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
+          }
+        },
+        "contador_4b_den.next_numero_SB_LUT4_O_3_I2_SB_LUT4_O_I2_SB_LUT4_O_I1": {
+          "hide_name": 0,
+          "bits": [ 55, 50, 3, 2 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
@@ -13885,39 +13933,7 @@
         },
         "contador_4b_den.next_numero_SB_LUT4_O_3_I3": {
           "hide_name": 0,
-          "bits": [ 45, 18, 21 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
-          }
-        },
-        "contador_4b_den.next_numero_SB_LUT4_O_3_I3_SB_LUT4_I2_O": {
-          "hide_name": 0,
-          "bits": [ 55, 38, 37, 57 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
-          }
-        },
-        "contador_4b_den.next_numero_SB_LUT4_O_3_I3_SB_LUT4_I2_O_SB_LUT4_O_I0": {
-          "hide_name": 0,
-          "bits": [ 56, 44, 3, 2 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
-          }
-        },
-        "contador_4b_den.next_numero_SB_LUT4_O_3_I3_SB_LUT4_I2_O_SB_LUT4_O_I1": {
-          "hide_name": 0,
-          "bits": [ 44, 42, 3, 2 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
-          }
-        },
-        "contador_4b_den.next_numero_SB_LUT4_O_3_I3_SB_LUT4_I3_O": {
-          "hide_name": 0,
-          "bits": [ 29, 52, 26, 27 ],
+          "bits": [ 43, 18, 21 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
@@ -14001,7 +14017,7 @@
         },
         "contador_4b_num.next_numero_SB_LUT4_O_1_I3_SB_LUT4_O_I1_SB_LUT4_O_I1": {
           "hide_name": 0,
-          "bits": [ 89, 78, 2, 3 ],
+          "bits": [ 86, 78, 2, 3 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
@@ -14009,23 +14025,7 @@
         },
         "contador_4b_num.next_numero_SB_LUT4_O_1_I3_SB_LUT4_O_I3": {
           "hide_name": 0,
-          "bits": [ 73, 86, 87 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
-          }
-        },
-        "contador_4b_num.next_numero_SB_LUT4_O_1_I3_SB_LUT4_O_I3_SB_LUT4_O_I0": {
-          "hide_name": 0,
-          "bits": [ 90, 89, 2, 3 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
-          }
-        },
-        "contador_4b_num.next_numero_SB_LUT4_O_1_I3_SB_LUT4_O_I3_SB_LUT4_O_I0_SB_LUT4_I1_O": {
-          "hide_name": 0,
-          "bits": [ 92, 93, 91, 94 ],
+          "bits": [ 73, 87, 88 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
@@ -14033,7 +14033,7 @@
         },
         "contador_4b_num.next_numero_SB_LUT4_O_2_I3": {
           "hide_name": 0,
-          "bits": [ 67, 96 ],
+          "bits": [ 67, 90 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
@@ -14041,7 +14041,7 @@
         },
         "contador_4b_num.next_numero_SB_LUT4_O_2_I3_SB_LUT4_O_I1": {
           "hide_name": 0,
-          "bits": [ 97, 99, 98, 100 ],
+          "bits": [ 91, 94, 92, 95 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
@@ -14049,7 +14049,7 @@
         },
         "contador_4b_num.next_numero_SB_LUT4_O_2_I3_SB_LUT4_O_I1_SB_LUT4_I0_O": {
           "hide_name": 0,
-          "bits": [ 101, 76, 88, 70 ],
+          "bits": [ 96, 76, 89, 70 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
@@ -14057,7 +14057,15 @@
         },
         "contador_4b_num.next_numero_SB_LUT4_O_2_I3_SB_LUT4_O_I1_SB_LUT4_O_1_I0": {
           "hide_name": 0,
-          "bits": [ 90, 95, 3, 2 ],
+          "bits": [ 102, 101, 3, 2 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
+          }
+        },
+        "contador_4b_num.next_numero_SB_LUT4_O_2_I3_SB_LUT4_O_I1_SB_LUT4_O_1_I0_SB_LUT4_I1_I0": {
+          "hide_name": 0,
+          "bits": [ 102, 86, 2, 3 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
@@ -14087,17 +14095,9 @@
             "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
           }
         },
-        "contador_4b_num.next_numero_SB_LUT4_O_2_I3_SB_LUT4_O_I1_SB_LUT4_O_3_I0_SB_LUT4_I1_I0_SB_LUT4_I0_O": {
+        "contador_4b_num.next_numero_SB_LUT4_O_2_I3_SB_LUT4_O_I1_SB_LUT4_O_3_I0_SB_LUT4_I1_O": {
           "hide_name": 0,
-          "bits": [ 70, 106 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
-          }
-        },
-        "contador_4b_num.next_numero_SB_LUT4_O_2_I3_SB_LUT4_O_I1_SB_LUT4_O_3_I0_SB_LUT4_I1_I0_SB_LUT4_I0_O_SB_LUT4_I3_O": {
-          "hide_name": 0,
-          "bits": [ 108, 107 ],
+          "bits": [ 97, 98, 93, 99 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
@@ -14105,7 +14105,7 @@
         },
         "contador_4b_num.next_numero_SB_LUT4_O_2_I3_SB_LUT4_O_I1_SB_LUT4_O_3_I1": {
           "hide_name": 0,
-          "bits": [ 85, 103, 2, 3 ],
+          "bits": [ 104, 103, 3, 2 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
@@ -14121,7 +14121,7 @@
         },
         "contador_4b_num.next_numero_SB_LUT4_O_2_I3_SB_LUT4_O_I1_SB_LUT4_O_I1": {
           "hide_name": 0,
-          "bits": [ 83, 102, 2, 3 ],
+          "bits": [ 83, 100, 2, 3 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
@@ -14158,17 +14158,25 @@
             "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:2.14-2.17"
           }
         },
-        "divisor0.denominator": {
+        "divisor0.den": {
           "hide_name": 0,
           "bits": [ 25, 23, 21, 18 ],
           "attributes": {
-            "hdlname": "divisor0 denominator",
-            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:5.20-5.31"
+            "hdlname": "divisor0 den",
+            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:5.20-5.23"
+          }
+        },
+        "divisor0.num": {
+          "hide_name": 0,
+          "bits": [ 66, 64, 62, 60 ],
+          "attributes": {
+            "hdlname": "divisor0 num",
+            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:4.20-4.23"
           }
         },
         "divisor0.num_reg": {
           "hide_name": 0,
-          "bits": [ 119, 116, 113, 111 ],
+          "bits": [ 116, 113, 110, 108 ],
           "attributes": {
             "hdlname": "divisor0 num_reg",
             "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:19.13-19.20"
@@ -14176,73 +14184,49 @@
         },
         "divisor0.num_reg_SB_DFFE_Q_1_D": {
           "hide_name": 0,
-          "bits": [ 112 ],
+          "bits": [ 109 ],
           "attributes": {
             "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:23.2-59.5"
           }
         },
         "divisor0.num_reg_SB_DFFE_Q_2_D": {
           "hide_name": 0,
-          "bits": [ 115 ],
+          "bits": [ 112 ],
           "attributes": {
             "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:23.2-59.5"
           }
         },
         "divisor0.num_reg_SB_DFFE_Q_3_D": {
           "hide_name": 0,
-          "bits": [ 118 ],
+          "bits": [ 115 ],
           "attributes": {
             "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:23.2-59.5"
           }
         },
         "divisor0.num_reg_SB_DFFE_Q_D": {
           "hide_name": 0,
-          "bits": [ 109 ],
+          "bits": [ 106 ],
           "attributes": {
             "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:23.2-59.5"
           }
         },
-        "divisor0.numerator": {
-          "hide_name": 0,
-          "bits": [ 66, 64, 62, 60 ],
-          "attributes": {
-            "hdlname": "divisor0 numerator",
-            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:4.20-4.29"
-          }
-        },
         "divisor0.rest": {
           "hide_name": 0,
-          "bits": [ 126, 125, 124, 122 ],
+          "bits": [ 123, 122, 121, 119 ],
           "attributes": {
             "hdlname": "divisor0 rest",
             "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:6.28-6.32"
           }
         },
-        "divisor0.rest_SB_DFFESR_Q_D": {
-          "hide_name": 0,
-          "bits": [ 120, 117, 114, 121 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:47.21-47.42|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:33.26-33.27"
-          }
-        },
-        "divisor0.rest_SB_DFFESR_Q_D_SB_LUT4_O_I2": {
-          "hide_name": 0,
-          "bits": [ 127, 129, 130, 128 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:38.11-38.33|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:49.21-49.23"
-          }
-        },
         "divisor0.rest_SB_DFFESR_Q_R": {
           "hide_name": 0,
-          "bits": [ 123 ],
+          "bits": [ 120 ],
           "attributes": {
           }
         },
         "divisor0.result": {
           "hide_name": 0,
-          "bits": [ 138, 136, 134, 132 ],
+          "bits": [ 131, 129, 127, 125 ],
           "attributes": {
             "hdlname": "divisor0 result",
             "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:6.20-6.26"
@@ -14250,7 +14234,7 @@
         },
         "divisor0.result_SB_DFFESR_Q_D": {
           "hide_name": 0,
-          "bits": [ 137, 135, 133, 131 ],
+          "bits": [ 130, 128, 126, 124 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:0.0-0.0|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:33.26-33.27"
@@ -14258,7 +14242,7 @@
         },
         "divisor0.result_SB_DFFESR_Q_D_SB_LUT4_O_I3": {
           "hide_name": 0,
-          "bits": [ "0", 138, 140, 139 ],
+          "bits": [ "0", 131, 133, 132 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:0.0-0.0|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:51.21-51.22"
@@ -14266,20 +14250,20 @@
         },
         "divisor0.state": {
           "hide_name": 0,
-          "bits": [ "x", 142 ],
+          "bits": [ "x", 135 ],
           "attributes": {
             "onehot": "00000000000000000000000000000001"
           }
         },
         "divisor0.state_SB_DFF_Q_D": {
           "hide_name": 0,
-          "bits": [ 141 ],
+          "bits": [ 134 ],
           "attributes": {
           }
         },
         "divisor0.state_SB_LUT4_I2_1_I1": {
           "hide_name": 0,
-          "bits": [ 145, 142, 12 ],
+          "bits": [ 138, 135, 12 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
@@ -14287,7 +14271,7 @@
         },
         "divisor0.state_SB_LUT4_I2_1_I1_SB_LUT4_O_I1": {
           "hide_name": 0,
-          "bits": [ 146, 147, 148 ],
+          "bits": [ 139, 140, 141 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
@@ -14295,29 +14279,37 @@
         },
         "divisor0.state_SB_LUT4_I2_1_I1_SB_LUT4_O_I3": {
           "hide_name": 0,
-          "bits": [ 151, 150, 149, 148 ],
+          "bits": [ 146, 144, 142, 141 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
-            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:47.21-47.42|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:37.23-37.25"
+            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:47.21-47.34|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:37.23-37.25"
           }
         },
         "divisor0.state_SB_LUT4_I2_1_I1_SB_LUT4_O_I3_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ "1", 151, 150, 149 ],
+          "bits": [ "1", 146, 144, 142 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
-            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:47.21-47.42|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:51.21-51.22"
+            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:47.21-47.34|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:51.21-51.22"
+          }
+        },
+        "divisor0.state_SB_LUT4_I2_1_I1_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_LUT4_I3_O": {
+          "hide_name": 0,
+          "bits": [ 117, 114, 111, 118 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:47.21-47.34|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:33.26-33.27"
           }
         },
         "divisor0.state_SB_LUT4_I2_1_O": {
           "hide_name": 0,
-          "bits": [ 110 ],
+          "bits": [ 107 ],
           "attributes": {
           }
         },
         "divisor0.state_SB_LUT4_I2_I0": {
           "hide_name": 0,
-          "bits": [ 143, 144, 142, 12 ],
+          "bits": [ 136, 137, 135, 12 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
@@ -14325,7 +14317,7 @@
         },
         "divisor0.state_SB_LUT4_I2_I0_SB_LUT4_O_1_I0": {
           "hide_name": 0,
-          "bits": [ 152, 153, 154, 155 ],
+          "bits": [ 149, 150, 151, 152 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
@@ -14333,18 +14325,26 @@
         },
         "divisor0.state_SB_LUT4_I2_I0_SB_LUT4_O_1_I3": {
           "hide_name": 0,
-          "bits": [ 158, 157, 156, 155 ],
+          "bits": [ 155, 154, 153, 152 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
-            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:38.11-38.33|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:37.23-37.25"
+            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:38.11-38.19|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:37.23-37.25"
           }
         },
         "divisor0.state_SB_LUT4_I2_I0_SB_LUT4_O_1_I3_SB_CARRY_CO_CI": {
           "hide_name": 0,
-          "bits": [ "1", 158, 157, 156 ],
+          "bits": [ "1", 155, 154, 153 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
-            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:38.11-38.33|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:51.21-51.22"
+            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:38.11-38.19|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:51.21-51.22"
+          }
+        },
+        "divisor0.state_SB_LUT4_I2_I0_SB_LUT4_O_1_I3_SB_CARRY_CO_I1": {
+          "hide_name": 0,
+          "bits": [ 148, 147, 145, 143 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "divisor_4b.v:75.9-82.2|divisor/divisor.v:38.11-38.19|C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/arith_map.v:49.21-49.23"
           }
         },
         "down": {
@@ -14363,7 +14363,7 @@
         },
         "leds_SB_LUT4_O_1_I3": {
           "hide_name": 0,
-          "bits": [ 62, 21, 12, 160 ],
+          "bits": [ 62, 21, 12, 157 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
@@ -14371,7 +14371,7 @@
         },
         "leds_SB_LUT4_O_2_I3": {
           "hide_name": 0,
-          "bits": [ 64, 23, 12, 161 ],
+          "bits": [ 64, 23, 12, 158 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
@@ -14379,7 +14379,7 @@
         },
         "leds_SB_LUT4_O_3_I3": {
           "hide_name": 0,
-          "bits": [ 66, 25, 12, 162 ],
+          "bits": [ 66, 25, 12, 159 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
@@ -14387,7 +14387,7 @@
         },
         "leds_SB_LUT4_O_I3": {
           "hide_name": 0,
-          "bits": [ 60, 18, 12, 159 ],
+          "bits": [ 60, 18, 12, 156 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
@@ -14411,7 +14411,7 @@
         },
         "mux_4b_4_1_a_leds.d2": {
           "hide_name": 0,
-          "bits": [ 138, 136, 134, 132 ],
+          "bits": [ 131, 129, 127, 125 ],
           "attributes": {
             "hdlname": "mux_4b_4_1_a_leds d2",
             "src": "divisor_4b.v:66.12-73.2|mux_4b_4_1/mux_4b_4_1.v:3.23-3.25"
@@ -14419,7 +14419,7 @@
         },
         "mux_4b_4_1_a_leds.d3": {
           "hide_name": 0,
-          "bits": [ 126, 125, 124, 122 ],
+          "bits": [ 123, 122, 121, 119 ],
           "attributes": {
             "hdlname": "mux_4b_4_1_a_leds d3",
             "src": "divisor_4b.v:66.12-73.2|mux_4b_4_1/mux_4b_4_1.v:3.19-3.21"
@@ -14457,7 +14457,7 @@
         },
         "ok_SB_LUT4_I2_I3": {
           "hide_name": 0,
-          "bits": [ 4, 163 ],
+          "bits": [ 4, 160 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
@@ -14473,20 +14473,20 @@
         },
         "ok_SB_LUT4_I3_O": {
           "hide_name": 0,
-          "bits": [ 164 ],
+          "bits": [ 161 ],
           "attributes": {
           }
         },
         "rest": {
           "hide_name": 0,
-          "bits": [ 126, 125, 124, 122 ],
+          "bits": [ 123, 122, 121, 119 ],
           "attributes": {
             "src": "divisor_4b.v:14.19-14.23"
           }
         },
         "result": {
           "hide_name": 0,
-          "bits": [ 138, 136, 134, 132 ],
+          "bits": [ 131, 129, 127, 125 ],
           "attributes": {
             "src": "divisor_4b.v:14.11-14.17"
           }
@@ -14498,23 +14498,31 @@
             "src": "divisor_4b.v:8.32-8.35"
           }
         },
-        "rst_SB_LUT4_I3_2_I2": {
-          "hide_name": 0,
-          "bits": [ 107, 108, 166, 6 ],
-          "attributes": {
-            "force_downto": "00000000000000000000000000000001",
-            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
-          }
-        },
         "rst_SB_LUT4_I3_2_O": {
           "hide_name": 0,
-          "bits": [ 167 ],
+          "bits": [ 166 ],
           "attributes": {
           }
         },
         "rst_SB_LUT4_I3_2_O_SB_DFFESR_E_Q": {
           "hide_name": 0,
-          "bits": [ 168, 12, 14 ],
+          "bits": [ 167, 12, 14 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
+          }
+        },
+        "rst_SB_LUT4_I3_2_O_SB_DFFESR_E_Q_SB_LUT4_I1_O": {
+          "hide_name": 0,
+          "bits": [ 162, 163, 165, 6 ],
+          "attributes": {
+            "force_downto": "00000000000000000000000000000001",
+            "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
+          }
+        },
+        "rst_SB_LUT4_I3_2_O_SB_DFFESR_E_Q_SB_LUT4_I1_O_SB_LUT4_O_I3": {
+          "hide_name": 0,
+          "bits": [ 70, 169 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
@@ -14522,7 +14530,7 @@
         },
         "rst_SB_LUT4_I3_2_O_SB_DFFESR_E_R": {
           "hide_name": 0,
-          "bits": [ 169 ],
+          "bits": [ 168 ],
           "attributes": {
           }
         },
@@ -14542,7 +14550,7 @@
         },
         "rst_SB_LUT4_I3_I2": {
           "hide_name": 0,
-          "bits": [ 107, 108, 165, 6 ],
+          "bits": [ 162, 163, 164, 6 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
             "src": "C:\\Users\\Tom\\APIO~1\\packages\\TOOLS-~2\\bin\\../share/yosys/ice40/cells_map.v:6.21-6.22"
