@@ -2,6 +2,7 @@
 `include "contador_2b/contador_2b.v"
 `include "demux_4b_1_4/demux_4b_1_4.v"
 `include "contador_4b/contador_4b.v"
+`include "divisor/divisor.v"
 
 module divisor_4b(
 	input wire up, down, ok, clk, rst,
@@ -22,8 +23,8 @@ assign rst_inv = ~rst;
 assign ok_inv = ~ok;
 
 //para probar
-assign result = 4'b0111;
-assign rest = 4'b1000;
+// assign result = 4'b0111;
+// assign rest = 4'b1000;
 //fin para probar
 
 wire rst_contador_4b = ok_inv | rst_inv;
@@ -69,6 +70,15 @@ mux_4b_4_1 mux_4b_4_1_a_leds(
 	.d3(rest),
 	.f(leds),
 	.sel(sel)
+);
+wire rst_div = (sel[1] == 0);
+divisor divisor0(
+	.clk(clk),
+	.reset(rst_div),
+	.numerator(num),
+	.denominator(den),
+	.result(result),
+	.rest(rest)
 );
 
 endmodule

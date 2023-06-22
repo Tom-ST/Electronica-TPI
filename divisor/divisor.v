@@ -1,60 +1,60 @@
-module divisor(
-	input wire clk,
-	input wire reset,
-	input wire [3:0] A,
-	input wire [3:0] B,
-	input wire [1:0]Enable,
-	output reg [3:0] S,
-	output reg [3:0] R
+module divisor (
+  input wire clk,
+  input wire reset,
+  input wire [3:0] numerator,
+  input wire [3:0] denominator,
+  output reg [3:0] result, rest,
+  output reg done
 );
 
-localparam [1:0] S0= 2'b00, S1= 2'b01;
+  // Define the states
+  localparam [1:0] WAIT = 2'b00;
+  localparam [1:0] ERROR = 2'b01;
+  localparam [1:0] OPERATION = 2'b10;
+  localparam [1:0] END = 2'b11;
+
+  // Define the signals and registers
+  reg [1:0] state;
+  reg [3:0] count;
+  reg [3:0] num_reg;
+
+
 	
-reg [1:0] state, nextstate;
-
-reg [3:0] resto;
-reg [3:0] contador=0;
-reg bandera = 0;
-
-always @(posedge clk, posedge reset)
-	begin	
-		if(reset || Enable== 2'b10)
-			begin 
-				state <=S0;
-
+	always @(posedge clk)
+	begin
+		if(reset)
+			begin
+				state <= WAIT;
+				result <= 4'b0;
+				rest <= 4'b0;
+				done <= 0;
+				num_reg <= numerator;
 			end
-		else	
-			begin 
-				state <= nextstate; 
+		else
+			begin
+				case (state)
+					WAIT :
+						begin
+							if(numerator>=denominator && denominator != 4'b0000)
+								begin
+									state <= OPERATION;
+								end
+						end
+					OPERATION:
+						begin
+							if(num_reg>=denominator)
+								begin
+									num_reg <= num_reg - denominator;
+									result++;
+									rest <= num_reg - denominator;
+									done <=0;
+								end
+							else
+								begin
+									done <= 1;
+								end
+						end
+				endcase
 			end
 	end
-
-always @*
-		begin
-			if (Enable== 2'b10 && bandera==0)
-				begin
-					resto=A;
-					bandera=1;
-				end
-					nextstate = state;
-				case(state)
-					S0: if(clk && resto>=B)
-							begin
-							resto= resto - B;
-							contador=contador+1;
-							nextstate=S0;
-							end
-						else if (clk && resto<B)
-							begin
-							 S=contador;	
-							 R=resto;
-							 nextstate=S1;
-							end
-					default:
-							nextstate=state;
-				endcase
-		end
-
-
-endmodule	
-	
+endmodule
