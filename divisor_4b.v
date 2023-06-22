@@ -1,6 +1,5 @@
 `include "mux_4b_4_1/mux_4b_4_1.v"
 `include "contador_2b/contador_2b.v"
-`include "demux_4b_1_4/demux_4b_1_4.v"
 `include "contador_4b/contador_4b.v"
 `include "divisor/divisor.v"
 
@@ -41,13 +40,6 @@ contador_4b contador_4b_den(
 	.rst(rst_inv),
 	.curr_numero(den)
 );
-
-// demux_4b_1_4 demux_4b_1_4_0(
-	// .sel(sel),
-	// .d(numero_4b),
-	// .y0(num),
-	// .y1(den)
-// );
 
 
 contador_2b contador_2b_0(

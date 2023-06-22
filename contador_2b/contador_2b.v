@@ -5,10 +5,10 @@ module contador_2b(
 );
 
 reg [1:0] next_numero;
-localparam [1:0] 	b0 = 4'b00,
-					b1 = 4'b01,
-					b2 = 4'b10,
-					b3 = 4'b11;
+localparam [1:0] 	b0 = 2'b00,
+					b1 = 2'b01,
+					b2 = 2'b10,
+					b3 = 2'b11;
 
 reg enable_up = 1; // enable para cuando se suelta el boton 
 
