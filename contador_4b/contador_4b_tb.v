@@ -14,7 +14,8 @@ contador_4b UUT (//-- Instantiate the unit to test
 	.clk(clk),
 	.rst(test_rst),
 	.down(test_down),
-	.up(test_up)
+	.up(test_up),
+	.enable(test_enable)
 );
 
 

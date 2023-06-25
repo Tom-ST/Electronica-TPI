@@ -67,10 +67,6 @@ initial begin
 	#1
 	test_up = 1;
 	#1
-	test_up = 0;
-	#1
-	test_up = 1;
-	#1
 	test_down = 0;
 	#1
 	test_down = 1;
@@ -78,7 +74,7 @@ initial begin
 	test_ok = 1'b0;
 	#1
 	test_ok = 1'b1;
-	#1
+	#5
 	test_ok = 1'b0;
 	#1
 	test_ok = 1'b1;
